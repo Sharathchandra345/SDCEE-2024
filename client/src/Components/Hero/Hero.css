@@ -1,0 +1,69 @@
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: cadetblue;
+
+    display: flex;
+    z-index: -100;
+}
+
+.hero-left{
+    background-image: linear-gradient(90deg, #DF8F2A 0%, #ff9100 70%);
+    clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+    height: 100%;   
+    width: 70%;
+    z-index: 200;
+
+    padding-left: 50px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-right{
+    width: 80%;
+    height: 100%;
+    background-color: beige;
+    position: absolute;
+    right: 0;
+    z-index: 100;
+}
+
+.hero-text{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 100;
+
+    margin-top: -100px;
+}
+
+.hero-head{
+    font-size: 80px;
+    margin-bottom: 30px;
+}
+
+.hero-reg{
+    height: 50px;
+    width: 200px;
+
+    border-radius: 10px;
+    border: 0px solid;
+    background-color: black;
+    box-shadow: 0px 5px 10px 0px #00000077;
+
+    color: white;
+    font-size: 18px;
+}
+
+.wave{
+    position: absolute;
+    width: 100%;
+    bottom: -100px;
+    z-index: 500;
+
+    object-fit: cover;
+}
+
+
+
