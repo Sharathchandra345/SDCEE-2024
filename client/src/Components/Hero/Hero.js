@@ -15,7 +15,9 @@ export default function Hero() {
             </h5>
 
             <h3 className="mt-5"> Feburary 22-24, 2024 </h3>
-            <button className="hero-reg mt-3">Register</button>
+            <button className="hero-reg mt-3 blink">
+              <span>Register</span>
+            </button>
           </div>
         </div>
         <div className="hero-right"></div>
