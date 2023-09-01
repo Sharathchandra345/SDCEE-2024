@@ -5,11 +5,11 @@
 
   display: flex;
   z-index: -100;
+  background: linear-gradient(90deg, #808000 -16.68%, #20f3c9 142%);
 }
 
 .hero-left {
-  background-image: linear-gradient(90deg, #df8f2a 0%, #ff9100 70%);
-  clip-path: polygon(0 0, 100% 0%, 70% 100%, 0% 100%);
+  /* background: linear-gradient(90deg, #808000 -16.68%, #20f3c9 142%); */
   height: 100%;
   width: 70%;
   z-index: 200;
@@ -24,7 +24,7 @@
 .hero-right {
   width: 80%;
   height: 100%;
-  background-color: beige;
+  /* background-color: beige; */
   position: absolute;
   right: 0;
   z-index: 100;
@@ -70,13 +70,13 @@
 }
 
 span {
-  animation: blink 2s linear infinite;
+  animation: blink 3s linear infinite;
   color: #ffffff;
 }
 
 @keyframes blink {
   0% {
-    opacity: 0;
+    opacity: 0.4;
   }
 
   50% {

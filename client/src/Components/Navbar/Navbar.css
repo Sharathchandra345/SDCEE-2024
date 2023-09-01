@@ -1,5 +1,5 @@
 .nav {
-  background-color: #f4d8b4;
+  background-color: rgb(205, 217, 177);
   height: 70px;
   max-width: 100%;
 
@@ -11,7 +11,7 @@
 }
 .logo > img {
   height: 100%;
-  width: 50px;
+  width: 80px;
 }
 .nav-menu {
   width: 80%;
