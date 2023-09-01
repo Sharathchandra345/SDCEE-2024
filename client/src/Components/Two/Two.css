@@ -1,4 +1,9 @@
 .two{
-    height: 100vh;
-    background-color: black;
+    height: 75vh;
+    background-color: white;
+    color: black;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
