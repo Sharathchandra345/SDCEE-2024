@@ -2,16 +2,14 @@
   background-color: rgb(205, 217, 177);
   height: 70px;
   max-width: 100%;
-
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
   padding: 0px 50px;
 }
 .logo > img {
   height: 100%;
-  width: 80px;
+  width: 100px;
 }
 .nav-menu {
   width: 80%;
@@ -21,11 +19,11 @@
 
 .nav-regg > button {
   height: 100%;
-  width: 150px;
+  width: 80px;
   border-radius: 10px;
   background-color: #000000;
   color: white;
-  padding: 8px;
+  padding: 2px;
 }
 .nav-link {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
