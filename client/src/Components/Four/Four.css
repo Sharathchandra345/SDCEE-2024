@@ -1,0 +1,29 @@
+.four {
+  background-color: transparent;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four h2 {
+  padding-top: 20px;
+}
+.four h3 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.four p {
+  width: 50%;
+}
+
+.img-div {
+  width: 100%;
+  background-color: none;
+  background-image: url("./m3.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: 100% 100%;
+}

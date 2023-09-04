@@ -1,13 +1,12 @@
-.three{
-    height: 60vh;
-    background-color: #D2D8DD;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.three {
+  height: 60vh;
+  background-color: #d2d8dd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.timeline ul li{
-    margin-top: 20px;
-    font-size: 18px;
+.timeline ul li {
+  margin-top: 20px;
+  font-size: 18px;
 }
