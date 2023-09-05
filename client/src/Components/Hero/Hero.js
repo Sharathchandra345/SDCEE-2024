@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="hero">
         <div className="hero-left">
           <div className="hero-text">
-            <h1 className="hero-head"> SDCEE '24 </h1>
+            <h1 className="hero-head"> SDCEE 2024 </h1>
             <h5>
               {" "}
               International Conference on <br /> "Sustainable Development in

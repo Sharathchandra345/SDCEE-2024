@@ -1,12 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  background: #0e3408;
+  /* background: #0e3408; */
 }
 
 .footer {
-  margin: 40px;
-  margin-top: 50px;
+  background-color: #0e3408;
+  display: flex;
+  padding: 40px;
+  padding-top: 50px;
   margin-bottom: 0;
   color: white;
 }
