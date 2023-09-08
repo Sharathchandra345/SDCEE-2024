@@ -3,7 +3,7 @@ import "./Three.css";
 
 export default function Three() {
   return (
-    <div className="three">
+    <div className="three" id="dates">
       <div className="wrapper">
         <h1>Important Dates</h1>
         <hr />

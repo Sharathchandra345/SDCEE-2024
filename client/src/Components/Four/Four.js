@@ -5,7 +5,7 @@ import "./Four.css";
 
 export default function four() {
   return (
-    <div className="four">
+    <div className="four" id="venue">
       <div className="img-div">
         <div className="wrapper">
           <h2 className="center">Venue</h2>

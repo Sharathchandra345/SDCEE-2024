@@ -3,7 +3,7 @@ import "./Two.css";
 
 export default function Two() {
   return (
-    <div className="two">
+    <div className="two" id="about">
       <div className="wrapper">
         <br />
         <h1>About the Conference</h1>

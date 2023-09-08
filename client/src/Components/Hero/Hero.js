@@ -4,7 +4,7 @@ import "./Hero.css";
 export default function Hero() {
   return (
     <>
-      <div className="hero">
+      <div className="hero" id="hero">
         <div className="hero-left">
           <div className="hero-text">
             <h1 className="hero-head"> SDCEE 2024 </h1>
