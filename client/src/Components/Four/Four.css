@@ -1,5 +1,6 @@
 .four {
   background-color: transparent;
+  color: white;
 }
 
 .center {
@@ -19,9 +20,10 @@
 }
 
 .img-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.7)),
+    url("./M5.jpg");
   width: 100%;
   background-color: none;
-  background-image: url("./m3.png");
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;

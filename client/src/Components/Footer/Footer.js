@@ -58,11 +58,14 @@ export default function Footer() {
         </div>
         <ul className="contact-ul">
           <li>Faculty Advisor:</li>
-          <li className="yellow-li">Dr. XYZ</li>
+          <li className="yellow-li">Dr. Avinash Chandra</li>
+          <li className="yellow-li">Dr. Vivek Pawar</li>
           <li>Phone:</li>
-          <li className="yellow-li">+91 xxxxx-xxxxx</li>
+          <li className="yellow-li">+91-9914255295</li>
+          <li className="yellow-li">+91-9030417183</li>
           <li>Email:</li>
-          <li className="yellow-li">xyz@gmail.com</li>
+          <li className="yellow-li"> sdcee2024@thapar.edu</li>
+          <li className="yellow-li"> avinash.chandra@thapar.edu</li>
         </ul>
       </div>
     </div>

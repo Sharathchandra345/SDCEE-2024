@@ -5,6 +5,7 @@ import Two from "./Components/Two/Two";
 import Three from "./Components/Three/Three";
 import Four from "./Components/Four/Four";
 import Footer from "./Components/Footer/Footer";
+import Five from "./Components/Five/Five";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Two />
       <Three />
       <Four />
+      <Five />
       <Footer />
     </div>
   );
