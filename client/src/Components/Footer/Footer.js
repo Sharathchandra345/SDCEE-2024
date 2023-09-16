@@ -65,7 +65,7 @@ export default function Footer() {
           <li className="yellow-li">+91-9030417183</li>
           <li>Email:</li>
           <li className="yellow-li"> sdcee2024@thapar.edu</li>
-          <li className="yellow-li"> avinash.chandra@thapar.edu</li>
+          {/* <li className="yellow-li"> avinash.chandra@thapar.edu</li> */}
         </ul>
       </div>
     </div>

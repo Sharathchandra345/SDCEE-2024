@@ -6,14 +6,14 @@ import { HashLink as Link } from "react-router-hash-link";
 export default function Navbar() {
   return (
     <BrowserRouter>
-      <div className="nav">
+      <div className="nav" id="nav">
         <Link to="#hero" smooth className="text-link">
           <div className="logo">
             <img src={require("./Full-Logo.png")} alt="logo" />
           </div>
         </Link>
         <div className="nav-menu">
-          <Link to="#hero" smooth className="text-link">
+          <Link to="#nav" smooth className="text-link">
             <a className="nav-link">Home</a>
           </Link>
           <Link to="#about" smooth className="text-link">
@@ -35,7 +35,7 @@ export default function Navbar() {
             <a className="nav-link">Our Team</a>
           </Link>
         </div>
-        <Link to="" smooth className="text-link">
+        <Link to="#register" smooth className="text-link">
           <div className="nav-regg">
             <button>Register</button>
           </div>

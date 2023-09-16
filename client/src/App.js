@@ -6,6 +6,7 @@ import Three from "./Components/Three/Three";
 import Four from "./Components/Four/Four";
 import Footer from "./Components/Footer/Footer";
 import Five from "./Components/Five/Five";
+import Six from "./Components/Six/Six";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Three />
       <Four />
       <Five />
+      <Six />
       <Footer />
     </div>
   );

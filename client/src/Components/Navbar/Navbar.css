@@ -31,9 +31,7 @@
   color: black;
 }
 /* .sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+  position: sticky;
 } */
 .text-link {
   color: inherit;

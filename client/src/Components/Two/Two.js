@@ -33,7 +33,7 @@ export default function Two() {
           for researchers and industry professionals.
         </p>
         <div className="topics">
-          <h4>Topics to be covered in the conference</h4>
+          <h4>Themes to be covered in the conference</h4>
           <p>
             The conference theme is encapsulated in the following subject areas,
             with an openness to explore additional related topics:
