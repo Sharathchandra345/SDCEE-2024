@@ -48,9 +48,6 @@
     width: 100%;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 
     padding: 100px 100px;
     border-radius: 10px;
@@ -59,29 +56,25 @@
 }
 
 .orgcommembers{
-    width: max(calc(100%-200px));
+    width: calc(100%-200px);
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .orgcommember{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: max(calc(100%/3), 300px);
     flex-grow: 1;
-
     margin-top: 50px;
+    flex-basis: 50%;
 }
 
 .orgcommemberimg{
-    width: 175px;
+    width: 75px;
     aspect-ratio: 1;
     border-radius: 100px;
-    margin-bottom: 20px;
-
+    
+    margin-right: 20px;
     box-shadow: 0 5px 10px #00000099;
     object-fit: cover;
 }
@@ -115,4 +108,16 @@
 .post{
     margin-top: 30px;
     color: rgb(0, 161, 0);
+}
+
+.v-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    height: 100%;
+}
+
+.v-center > h6, p{
+    margin: 0;
 }

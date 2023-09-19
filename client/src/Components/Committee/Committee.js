@@ -4,45 +4,56 @@ import "./Comittee.css"
 const organizing = [
     {
         name: "Dr. Shilpi Verma",
-        img: require("./images/shilpiverma.jpg"),    
+        img: require("./images/shilpiverma.jpg"),
+        dept: "Energy & Environment, TIET Patiala"
     },
     {
         name: "Dr. Anoop Verma",
-        img: require("./images/anoopverma.jpg"),    
+        img: require("./images/anoopverma.jpg"),
+        dept: "Energy & Environment, TIET Patiala"
     },
     {
         name: "Dr. Sapna Sharma",
-        img: require("./images/sapnasharma.jpg"),    
+        img: require("./images/sapnasharma.jpg"),
+        dept: "Mathematics, TIET Patiala"
     },
     {
         name: "Dr. B. C. Mohanty",
-        img: require("./images/bcmohantay.jpg"),    
+        img: require("./images/bcmohantay.jpg"),
+        dept: "Physics & Material Science, TIET, Patiala"
     },
     {
         name: "Dr. Dwarika N. Ratha",
-        img: require("./images/dvarikanratha.jpg"),    
+        img: require("./images/dvarikanratha.jpg"),
+        dept: "Civil Engineering, TIET, Patiala"
     },
     {
         name: "Dr. S. S. Mallick",
-        img: require("./images/ssmalick.jpg"),    
+        img: require("./images/ssmalick.jpg"),
+        dept: "Mechanical Engineering, TIET, Patiala"
     },
     {
         name: "Dr. Sharad Saxena",
-        img: require("./images/sharadsaxena.jpg"),    
+        img: require("./images/sharadsaxena.jpg"),
+        dept: "Computer Science & Eng, TIET, Patiala"
     },
     {
         name: "Dr. Amit Dhir",
-        img: require("./images/amitdhir.jpg"),    
+        img: require("./images/amitdhir.jpg"),
+        dept: "Energy & Environment, TIET, Patiala"
     },
     {
         name: "Dr. Bonamali Pal",
-        img: require("./images/bonamalipal.jpg"),    
+        img: require("./images/bonamalipal.jpg"),
+        dept: "Chemistry & Biochemistry, TIET Patiala"
     },
     {
         name: "Dr. B K Chudasama",
-        img: require("./images/bkchudasama.jpg"),   
+        img: require("./images/bkchudasama.jpg"),
+        dept: "Physics & Material Science, TIET, Patiala"
     }
-]
+];
+
 
 const Chairperson = {
     name: "Prof. Rajeev Meheta",
@@ -95,16 +106,40 @@ export default function Committee() {
                     <p className='patronpost'>Deputy Director, TIET</p>
                 </div>
             </div>
+
+            <div className="othercom1">
+                <h3>Core Team</h3>
+
+                <h5 className="post">Chairperson</h5>
+                <p className="name">Prof. Rajeev Meheta</p>
+
+                <h5 className="post">Convener</h5>
+                <p className="name">Dr. Avinash Chandra</p>
+
+                <h5 className="post">Organizing Secretaries</h5>
+                {Orgsecs.map((member) => (
+                    <p className="name">{member.name}</p>
+                ))}
+
+                <h5 className="post">Joint Secretaries</h5>
+                {jointsecs.map((member) => (
+                    <p className="name">{member.name}</p>
+                ))}
+            </div>
+
+
             <div className="orgcom">
                 <h1>ORGANIZING COMMITTEE</h1>
-                <p>Department of Chemical Engineering TIET, Patiala</p>
 
                 <div className="orgcommembers">
 
                     {organizing.map((member, i) => (
                         <div className="orgcommember">
                             <img src={member.img} alt="" className='orgcommemberimg'/>
-                            <h5>{member.name}</h5>
+                            <div className='v-center'>
+                                <h6>{member.name}</h6>
+                                <p>{member.dept}</p>
+                            </div>
                         </div>
                     ))}
 
@@ -112,25 +147,6 @@ export default function Committee() {
             </div>
 
             <div className="othercom">
-                <div className="othercom1">
-                    <h3>Core Team</h3>
-
-                    <h5 className="post">Chairperson</h5>
-                    <p className="name">Prof. Rajeev Meheta</p>
-
-                    <h5 className="post">Convener</h5>
-                    <p className="name">Dr. Avinash Chandra</p>
-
-                    <h5 className="post">Organizing Secretaries</h5>
-                    {Orgsecs.map((member) => (
-                        <p className="name">{member.name}</p>
-                    ))}
-
-                    <h5 className="post">Joint Secretaries</h5>
-                    {jointsecs.map((member) => (
-                        <p className="name">{member.name}</p>
-                    ))}
-                </div>
                 <div className="othercom1">
                     <h3>Advisory Committee</h3>
                     {advcom.map((name) => (
