@@ -1,58 +1,58 @@
-.committee{
-    background-color: #ffffff;
+.committee {
+  background-color: #ffffff;
 }
 
-.patrons{
+.patrons {
+  display: flex;
+  justify-content: space-evenly;
+  z-index: -100;
+}
+
+.patrons::after {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  content: " ";
+  align-self: center;
+  justify-self: center;
+  background-color: rgb(0, 97, 0);
+
+  z-index: 0;
+}
+
+.patron {
+  height: 500px;
+  aspect-ratio: 1;
+  background-color: lightgray;
+  margin: 100px 0;
+  padding-top: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 100;
+}
+
+.patronhead {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+
+  color: orangered;
+  margin-top: 20px;
+}
+
+.orgcom {
+  background-color: lightgray;
+  width: 100%;
+
     display: flex;
-    justify-content: space-evenly;
-    z-index: -100;
-}
 
-.patrons::after{
-    position: absolute;
-    width: 100%;
-    height: 100px;
-    content: " ";
-    align-self: center;
-    justify-self: center;
-    background-color: rgb(0, 97, 0);
+  padding: 100px 100px;
+  border-radius: 10px;
 
-    z-index: 0;
-}
-
-.patron{
-    height: 500px;
-    aspect-ratio: 1;
-    background-color: lightgray;
-    margin: 100px 0;
-    padding-top: 40px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    z-index: 100;
-}
-
-.patronhead{
-    font-family: 'Times New Roman', Times, serif;
-    margin: 0;
-
-    color: orangered;
-    margin-top: 20px;
-}
-
-.orgcom{
-    background-color: lightgray;
-    width: 100%;
-
-    display: flex;
-
-    padding: 100px 100px;
-    border-radius: 10px;
-
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .orgcommembers{
@@ -79,36 +79,48 @@
     object-fit: cover;
 }
 
-.othercom{
-    display: flex;
-    justify-content: space-between;
+.othercom {
+  display: flex;
+  justify-content: space-between;
 
-    flex-wrap: wrap;
-    gap: 50px;
+  flex-wrap: wrap;
+  gap: 50px;
 }
 
-.othercom1{
-    width: max(30%, 300px);
-    flex-grow: 1;
-    background-color: lightgrey;
+.othercom1 {
+  width: max(30%, 300px);
+  flex-grow: 1;
+  background-color: lightgrey;
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 0px;
-    margin: 100px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0px;
+  margin: 100px 0px;
 
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
-.othercom1 > h3{
-    margin-bottom: 50px;
+.othercom1 > h3 {
+  margin-bottom: 50px;
 }
 
-.post{
-    margin-top: 30px;
-    color: rgb(0, 161, 0);
+.post {
+  margin-top: 30px;
+  color: rgb(0, 161, 0);
 }
+
+.committee-item {
+  margin-left: 30px;
+}
+
+.department-adv .name-adv {
+  color: black;
+}
+.name-department {
+  color: black;
+}
+
 
 .v-center{
     display: flex;
