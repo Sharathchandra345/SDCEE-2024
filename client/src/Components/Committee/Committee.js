@@ -1,58 +1,113 @@
 import React from 'react'
 import "./Comittee.css"
 
+const organizing = [
+    {
+        name: "Dr. Shilpi Verma",
+        img: require("./images/shilpiverma.jpg"),    
+    },
+    {
+        name: "Dr. Anoop Verma",
+        img: require("./images/anoopverma.jpg"),    
+    },
+    {
+        name: "Dr. Sapna Sharma",
+        img: require("./images/sapnasharma.jpg"),    
+    },
+    {
+        name: "Dr. B. C. Mohanty",
+        img: require("./images/bcmohantay.jpg"),    
+    },
+    {
+        name: "Dr. Dwarika N. Ratha",
+        img: require("./images/dvarikanratha.jpg"),    
+    },
+    {
+        name: "Dr. S. S. Mallick",
+        img: require("./images/ssmalick.jpg"),    
+    },
+    {
+        name: "Dr. Sharad Saxena",
+        img: require("./images/sharadsaxena.jpg"),    
+    },
+    {
+        name: "Dr. Amit Dhir",
+        img: require("./images/amitdhir.jpg"),    
+    },
+    {
+        name: "Dr. Bonamali Pal",
+        img: require("./images/bonamalipal.jpg"),    
+    },
+    {
+        name: "Dr. B K Chudasama",
+        img: require("./images/bkchudasama.jpg"),   
+    }
+]
+
+const Chairperson = {
+    name: "Prof. Rajeev Meheta",
+}
+
+const Convener = {
+    name: "Dr. Avinash Chandra",
+}
+
+const Orgsecs = [
+    {
+        name: "Dr. Sangmitra Barman",
+    },
+    {
+        name: "Dr. Jaiprakash Kushwaha",
+    },
+    {
+        name: "Dr. Neetu Singh",
+    },
+]
+
+const jointsecs = [
+    {
+        name: "Dr. Vivek Pawar",
+
+    },
+    {
+        name: "Dr. Himali Horo",
+    }
+]
+
+const advcom = ['Prof. Shang Dai', 'Prof. Mika Sillanpaa', 'Prof. Roop Mahajan', 'Prof S. N. Upadhyay (Rtd.)', 'Prof. Anil Verma', 'Prof. V. C.Srivastava', 'Prof. Amit Dhiman', 'Prof. Narasimha Mangadoddy', 'Prof. Manojkumar C. Ramteke', 'Prof. R.K. Upadhyay', 'Prof. Girish M. Joshi', 'Prof. Raghvendra Gupta', 'Dr. Sunil Dhole', 'Dr. Sandip Patil']
+
 export default function Committee() {
   return (
-    <div className='committee'>
+    <div className='committee' id='team'>
         <div className="wrapper">
 
             <div className="patrons">
                 <div className="patron">
-                    <img src={require("./images/anoopverma.jpg")} alt="" width={"60%"} />
-                    <h2 className='patronhead'>Cheif Patron</h2>
+                    <img src={require("./images/padmakumarnair.jpg")} alt="" width={"60%"} />
+                    <h2 className='patronhead'>Chief Patron</h2>
                     <h5 className='patronname'>Prof. Padmakumar Nair</h5>
                     <p className='patronpost'>Director, TIET</p>
                 </div>
                 <div className="patron" style={{marginTop: "300px"}}>
-                <img src={require("./images/anoopverma.jpg")} alt="" width={"60%"} />
+                <img src={require("./images/ajaybatish.jpg")} alt="" width={"60%"} />
                     <h2 className='patronhead'>Patron</h2>
                     <h5 className='patronname'>Prof. Ajay Batish</h5>
                     <p className='patronpost'>Deputy Director, TIET</p>
                 </div>
             </div>
             <div className="orgcom">
-                <h2>ORGANIZING COMMITTEE</h2>
+                <h1>ORGANIZING COMMITTEE</h1>
                 <p>Department of Chemical Engineering TIET, Patiala</p>
 
                 <div className="orgcommembers">
-                    <div className="orgcommember">
-                        <img src={require("./images/anoopverma.jpg")} alt="" className='orgcommemberimg'/>
-                        <h5>Dr. Anoop Verma</h5>
-                    </div>
-                    <div className="orgcommember">
-                        <img src={require("./images/anoopverma.jpg")} alt="" className='orgcommemberimg'/>
-                        <h6>Dr. Anoop Verma</h6>
-                    </div>
-                    <div className="orgcommember">
-                        <img src={require("./images/anoopverma.jpg")} alt="" className='orgcommemberimg'/>
-                        <h6>Dr. Anoop Verma</h6>
-                    </div>
-                    <div className="orgcommember">
-                        <img src={require("./images/anoopverma.jpg")} alt="" className='orgcommemberimg'/>
-                        <h6>Dr. Anoop Verma</h6>
-                    </div>
-                    <div className="orgcommember">
-                        <img src={require("./images/anoopverma.jpg")} alt="" className='orgcommemberimg'/>
-                        <h6>Dr. Anoop Verma</h6>
-                    </div>
-                    <div className="orgcommember">
-                        <img src={require("./images/anoopverma.jpg")} alt="" className='orgcommemberimg'/>
-                        <h6>Dr. Anoop Verma</h6>
-                    </div>
-                    <div className="orgcommember">
-                        <img src={require("./images/anoopverma.jpg")} alt="" className='orgcommemberimg'/>
-                        <h6>Dr. Anoop Verma</h6>
-                    </div>
+
+                    {organizing.map((member, i) => (
+                        <div className="orgcommember">
+                            <img src={member.img} alt="" className='orgcommemberimg'/>
+                            <h5>{member.name}</h5>
+                        </div>
+                    ))}
+
                 </div>
             </div>
 
@@ -60,46 +115,40 @@ export default function Committee() {
                 <div className="othercom1">
                     <h3>Core Team</h3>
 
-                    <h5 className="post" style={{marginTop: "50px"}}>Chairperson</h5>
+                    <h5 className="post">Chairperson</h5>
                     <p className="name">Prof. Rajeev Meheta</p>
 
                     <h5 className="post">Convener</h5>
                     <p className="name">Dr. Avinash Chandra</p>
 
                     <h5 className="post">Organizing Secretaries</h5>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
+                    {Orgsecs.map((member) => (
+                        <p className="name">{member.name}</p>
+                    ))}
 
                     <h5 className="post">Joint Secretaries</h5>
-                    <p className="name">Prof. Rajeev Meheta</p>
+                    {jointsecs.map((member) => (
+                        <p className="name">{member.name}</p>
+                    ))}
                 </div>
                 <div className="othercom1">
                     <h3>Advisory Committee</h3>
-                    <p className="name" style={{marginTop: "50px"}}>Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
+                    {advcom.map((name) => (
+                        <p className="name">{name}</p>
+                    ))}
                 </div>
                 <div className="othercom1">
                     <h3>Student Committee</h3>
 
-                    <h5 className="post" style={{marginTop: "50px"}}>Web Designers</h5>
+                    <h5 className="post">Web Designers</h5>
                     <p className="name">Tithi Srivastava</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
-                    <p className="name">Prof. Rajeev Meheta</p>
+                    <p className="name">Akhilesh Bhardvaj</p>
+                    <p className="name">Saanvi Mangla</p>
+                    <p className="name">Arnav Gupta</p>
 
                     <h5 className="post">Brouchure Designers</h5>
-                    <p className="name">Dr. Avinash Chandra</p>
+                    <p className="name">Ishita Bharadwaaj</p>
+                    <p className="name">Sudipta Bora</p>
 
                     <h5 className="post">Developers</h5>
                     <p className="name">Sharath Chandra</p>

@@ -1,5 +1,5 @@
 .committee{
-    background-color: #FFF6EB;
+    background-color: #ffffff;
 }
 
 .patrons{
@@ -21,10 +21,11 @@
 }
 
 .patron{
-    height: 400px;
+    height: 500px;
     aspect-ratio: 1;
     background-color: lightgray;
     margin: 100px 0;
+    padding-top: 40px;
 
     display: flex;
     flex-direction: column;
@@ -72,7 +73,7 @@
     width: max(calc(100%/3), 300px);
     flex-grow: 1;
 
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .orgcommemberimg{
@@ -82,6 +83,7 @@
     margin-bottom: 20px;
 
     box-shadow: 0 5px 10px #00000099;
+    object-fit: cover;
 }
 
 .othercom{
@@ -104,6 +106,10 @@
     margin: 100px 0px;
 
     border-radius: 10px;
+}
+
+.othercom1 > h3{
+    margin-bottom: 50px;
 }
 
 .post{
