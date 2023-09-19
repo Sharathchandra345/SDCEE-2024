@@ -10,24 +10,26 @@
 
 .hero-left {
   /* background: linear-gradient(90deg, #808000 -16.68%, #20f3c9 142%); */
+  
   height: 100%;
   width: 70%;
   z-index: 200;
-
+  
   padding-left: 50px;
 
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center;  
 }
 
 .hero-right {
-  width: 80%;
+  width: 60%;
   height: 100%;
-  /* background-color: beige; */
+  background-color: teal;
   position: absolute;
   right: 0;
   z-index: 100;
+  clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
 }
 
 .hero-text {

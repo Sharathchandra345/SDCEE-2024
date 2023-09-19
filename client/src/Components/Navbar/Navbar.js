@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "./logo.png";
 import { BrowserRouter } from "react-router-dom";
 import { HashLink as Link } from "react-router-hash-link";
+
 export default function Navbar() {
   return (
     <BrowserRouter>

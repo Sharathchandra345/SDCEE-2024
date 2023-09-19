@@ -7,6 +7,11 @@
   z-index: 0;
 }
 
+button{
+  outline: 0;
+  border: 0px solid;
+}
+
 .wrapper{
   padding: 0 50px;
 }

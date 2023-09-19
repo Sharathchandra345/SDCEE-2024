@@ -7,6 +7,7 @@ import Four from "./Components/Four/Four";
 import Footer from "./Components/Footer/Footer";
 import Five from "./Components/Five/Five";
 import Six from "./Components/Six/Six";
+import Committee from "./Components/Committee/Committee";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Four />
       <Five />
       <Six />
+      <Committee/>
       <Footer />
     </div>
   );
