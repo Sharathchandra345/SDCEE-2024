@@ -1,0 +1,82 @@
+/* registration.css */
+
+.register {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0;
+}
+
+.register-top {
+  background: linear-gradient(90deg, #495b10 -7.42%, #288838 62.99%);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.hero-head.reg-hero-head {
+  margin-bottom: 20px;
+}
+
+.register-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.fee-details,
+.key-dates,
+.button-container {
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 20px; /* Add padding to the left of both sections */
+  margin-top: 10px;
+}
+
+.key-dates {
+  padding-bottom: 30px;
+}
+
+.button-container {
+  text-align: right;
+  margin-top: 40px;
+}
+
+.fee-details h6,
+.key-dates h6 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-decoration: underline;
+}
+
+.fee-details ul,
+.key-dates ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fee-details li,
+.key-dates li {
+  margin: 10px 0;
+}
+
+.button-container button {
+  width: 30%;
+  background-color: #450808;
+  color: white;
+  border: none;
+  padding: 10px;
+  margin-right: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.button-container button:hover {
+  background-color: #748f1a;
+}
