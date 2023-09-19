@@ -14,7 +14,7 @@ export default function Hero() {
               Chemical and <br /> Environmental Engineering"
             </h5>
 
-            <h3 className="mt-5"> Feburary 22-24, 2024 </h3>
+            <h3 className="mt-5"> February 22-24, 2024 </h3>
             <button className="hero-reg mt-3 blink">
               <span>Register</span>
             </button>
