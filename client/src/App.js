@@ -29,13 +29,13 @@ function App() {
 function Home() {
   return (
     <>
-      <Hero />
+      <Hero />s
       <Two />
       <Three />
+      <Committee />
       <Four />
       <Five />
       <Six />
-      <Committee />
     </>
   );
 }

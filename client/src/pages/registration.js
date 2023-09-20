@@ -19,22 +19,22 @@ export default function Registration() {
           <h1>Registration Guidelines</h1>
         </div>
         <div className="fee-details">
-          <h2>Fee Details:</h2>
+          <h2>Fee Details</h2>
           <ul>
             <li>
-              <strong>Faculty/Academicians (Indian):</strong> INR 5000
+              <strong>Faculty/Academicians (Indian) </strong> INR 5000
             </li>
             <li>
-              <strong>Research Scholars/Students (Indian):</strong> INR 3000
+              <strong>Research Scholars/Students (Indian) </strong> INR 3000
             </li>
             <li>
-              <strong>Industrial Participants (Indian):</strong> INR 7000
+              <strong>Industrial Participants (Indian) </strong> INR 7000
             </li>
             <li>
-              <strong>Foreign Delegates:</strong> USD 350
+              <strong>Foreign Delegates </strong> USD 350
             </li>
             <li>
-              <strong>Listener/Accompanying Person (Indian):</strong> INR 2000
+              <strong>Listener/Accompanying Person (Indian) </strong> INR 2000
             </li>
           </ul>
           <p>
@@ -52,26 +52,26 @@ export default function Registration() {
         <div className="key-dates">
           <h2>Payment Details</h2>
           <p>
-            <strong>Name of Beneficiary:</strong> Thapar Institute of
+            <strong>Name of Beneficiary </strong> Thapar Institute of
             Engineering and Technology
           </p>
           <p>
-            <strong>Account Number:</strong> 676010011622
+            <strong>Account Number </strong> 676010011622
           </p>
           <p>
-            <strong>Type of A/c:</strong> Saving
+            <strong>Type of A/c </strong> Saving
           </p>
           <p>
-            <strong>Bank Name:</strong> Kotak Mahindra Bank Ltd.
+            <strong>Bank Name </strong> Kotak Mahindra Bank Ltd.
           </p>
           <p>
-            <strong>IFSC Code:</strong> KKBK0000263
+            <strong>IFSC Code </strong> KKBK0000263
           </p>
           <p>
-            <strong>Swift Code:</strong> KKBKINBB
+            <strong>Swift Code </strong> KKBKINBB
           </p>
           <p>
-            <strong>Bank Address:</strong> Kotak Mahindra Bank Ltd. Leela
+            <strong>Bank Address </strong> Kotak Mahindra Bank Ltd. Leela
             Bhawan, Patiala, Punjab, India
           </p>
         </div>
@@ -79,22 +79,22 @@ export default function Registration() {
           <h2>Important Dates:</h2>
           <ul>
             <li>
-              <strong>Last Date for Abstract Submission:</strong> Nov. 20, 2023
+              <strong>Last Date for Abstract Submission </strong> Nov. 20, 2023
             </li>
             <li>
-              <strong>Notification of Acceptance:</strong> Oct. 01, 2023 - Dec.
+              <strong>Notification of Acceptance </strong> Oct. 01, 2023 - Dec.
               31, 2023
             </li>
             <li>
-              <strong>Early Bird Registration:</strong> Oct. 01, 2023 - Dec. 15,
+              <strong>Early Bird Registration </strong> Oct. 01, 2023 - Dec. 15,
               2023
             </li>
             <li>
-              <strong>Full Paper (Selected) Submission:</strong> Oct. 15, 2023 -
+              <strong>Full Paper (Selected) Submission </strong> Oct. 15, 2023 -
               Jan. 15, 2024
             </li>
             <li>
-              <strong>Conference Date:</strong> February 22-24, 2024
+              <strong>Conference Date </strong> February 22-24, 2024
             </li>
           </ul>
         </div>

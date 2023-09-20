@@ -31,21 +31,26 @@ export default function Footer() {
             <div className="white-line"></div>
           </li>
           <li>
-            <a href="#" className="ftr-links">
-              <span className="bullet-point">&#9658;</span> Department Faculty
-              Profile
+            <a href="https://ched.thapar.edu/" className="ftr-links">
+              <span className="bullet-point">&#9658;</span> About Department
             </a>
             <div className="white-line"></div>
           </li>
           <li>
-            <a href="#" className="ftr-links">
-              <span className="bullet-point">&#9658;</span> Registration
+            <a href="https://www.thapar.edu/" className="ftr-links">
+              <span className="bullet-point">&#9658;</span> About The Institute
             </a>
             <div className="white-line"></div>
           </li>
           <li>
             <a href="#" className="ftr-links">
               <span className="bullet-point">&#9658;</span> Abstract Submission
+            </a>
+            <div className="white-line"></div>
+          </li>
+          <li>
+            <a href="https://forms.gle/BwTenJaU7qAQLbAw8" className="ftr-links">
+              <span className="bullet-point">&#9658;</span> Registration Link
             </a>
             <div className="white-line"></div>
           </li>

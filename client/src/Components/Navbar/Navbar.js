@@ -23,17 +23,17 @@ export default function Navbar() {
         <Link to="/" smooth className="text-link">
           <a className="nav-link">Home</a>
         </Link>
-        <Link to="#about" smooth className="text-link">
-          <a className="nav-link">About</a>
+        <Link to="#venue" smooth className="text-link">
+          <a className="nav-link">Venue</a>
         </Link>
         <Link to="#speakers" smooth className="text-link">
           <a className="nav-link">Speakers</a>
         </Link>
+        <Link to="" smooth className="text-link">
+          <a className="nav-link">Abstract Submission</a>
+        </Link>
         <Link to="#dates" smooth className="text-link">
           <a className="nav-link">Schedule</a>
-        </Link>
-        <Link to="#venue" smooth className="text-link">
-          <a className="nav-link">Venue</a>
         </Link>
         <Link to="#sponsors" smooth className="text-link">
           <a className="nav-link">Sponsors</a>
