@@ -9,22 +9,33 @@ export default function Registration() {
       <div className="wrapper-reg">
         <div className="register-top">
           <h1 className="hero-head reg-hero-head">SDCEE 2024</h1>
-          <p>International Conference on</p>
-          <h5>
-            "Sustainable Development in Chemical and Environmental Engineering"
-          </h5>
+          <h4>
+            {" "}
+            International Conference on <br /> "Sustainable Development in
+            Chemical and <br /> Environmental Engineering"
+          </h4>
         </div>
         <div className="register-center">
-          <h2>Registration Guidelines</h2>
+          <h1>Registration Guidelines</h1>
         </div>
         <div className="fee-details">
-          <h6>Fee Details:</h6>
+          <h2>Fee Details:</h2>
           <ul>
-            <li>Faculty/Academicians (Indian): INR 5000</li>
-            <li>Research Scholars/Students (Indian): INR 3000</li>
-            <li>Industrial Participants (Indian): INR 7000</li>
-            <li>Foreign Delegates: USD 350</li>
-            <li>Listener/Accompanying Person (Indian): INR 2000</li>
+            <li>
+              <strong>Faculty/Academicians (Indian):</strong> INR 5000
+            </li>
+            <li>
+              <strong>Research Scholars/Students (Indian):</strong> INR 3000
+            </li>
+            <li>
+              <strong>Industrial Participants (Indian):</strong> INR 7000
+            </li>
+            <li>
+              <strong>Foreign Delegates:</strong> USD 350
+            </li>
+            <li>
+              <strong>Listener/Accompanying Person (Indian):</strong> INR 2000
+            </li>
           </ul>
           <p>
             *Registration fee includes registration kit, lunch, conference/gala
@@ -39,15 +50,52 @@ export default function Registration() {
           <button>Submission Link</button>
         </div>
         <div className="key-dates">
-          <h6>Important Dates:</h6>
+          <h2>Payment Details</h2>
+          <p>
+            <strong>Name of Beneficiary:</strong> Thapar Institute of
+            Engineering and Technology
+          </p>
+          <p>
+            <strong>Account Number:</strong> 676010011622
+          </p>
+          <p>
+            <strong>Type of A/c:</strong> Saving
+          </p>
+          <p>
+            <strong>Bank Name:</strong> Kotak Mahindra Bank Ltd.
+          </p>
+          <p>
+            <strong>IFSC Code:</strong> KKBK0000263
+          </p>
+          <p>
+            <strong>Swift Code:</strong> KKBKINBB
+          </p>
+          <p>
+            <strong>Bank Address:</strong> Kotak Mahindra Bank Ltd. Leela
+            Bhawan, Patiala, Punjab, India
+          </p>
+        </div>
+        <div className="key-dates">
+          <h2>Important Dates:</h2>
           <ul>
-            <li>Last Date for Abstract Submission: Nov. 20, 2023</li>
-            <li>Notification of Acceptance: Oct. 01, 2023 - Dec. 31, 2023</li>
-            <li>Early Bird Registration: Oct. 01, 2023 - Dec. 15, 2023</li>
             <li>
-              Full Paper (Selected) Submission: Oct. 15, 2023 - Jan. 15, 2024
+              <strong>Last Date for Abstract Submission:</strong> Nov. 20, 2023
             </li>
-            <li>Conference Date: February 22-24, 2024</li>
+            <li>
+              <strong>Notification of Acceptance:</strong> Oct. 01, 2023 - Dec.
+              31, 2023
+            </li>
+            <li>
+              <strong>Early Bird Registration:</strong> Oct. 01, 2023 - Dec. 15,
+              2023
+            </li>
+            <li>
+              <strong>Full Paper (Selected) Submission:</strong> Oct. 15, 2023 -
+              Jan. 15, 2024
+            </li>
+            <li>
+              <strong>Conference Date:</strong> February 22-24, 2024
+            </li>
           </ul>
         </div>
       </div>

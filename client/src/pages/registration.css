@@ -41,15 +41,18 @@
 
 .button-container {
   text-align: right;
-  margin-top: 40px;
+  margin-top: 60px;
 }
 
-.fee-details h6,
-.key-dates h6 {
-  font-size: 18px;
-  font-weight: bold;
-  margin: 10px 0;
-  text-decoration: underline;
+.fee-details h2,
+.key-dates h2 {
+  /* font-size: 18px; */
+  /* font-weight: bold; */
+  /* text-decoration: underline; */
+  background-color: #d2d8dd;
+  width: fit-content;
+  margin: 20px 0;
+  padding: 5px;
 }
 
 .fee-details ul,
