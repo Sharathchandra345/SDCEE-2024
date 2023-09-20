@@ -2,58 +2,73 @@ import React from "react";
 import "./Comittee.css";
 
 const organizing = [
-    {
-        name: "Dr. Shilpi Verma",
-        img: require("./images/shilpiverma.jpg"),
-        dept: "Energy & Environment, TIET Patiala"
-    },
-    {
-        name: "Dr. Anoop Verma",
-        img: require("./images/anoopverma.jpg"),
-        dept: "Energy & Environment, TIET Patiala"
-    },
-    {
-        name: "Dr. Sapna Sharma",
-        img: require("./images/sapnasharma.jpg"),
-        dept: "Mathematics, TIET Patiala"
-    },
-    {
-        name: "Dr. B. C. Mohanty",
-        img: require("./images/bcmohantay.jpg"),
-        dept: "Physics & Material Science, TIET, Patiala"
-    },
-    {
-        name: "Dr. Dwarika N. Ratha",
-        img: require("./images/dvarikanratha.jpg"),
-        dept: "Civil Engineering, TIET, Patiala"
-    },
-    {
-        name: "Dr. S. S. Mallick",
-        img: require("./images/ssmalick.jpg"),
-        dept: "Mechanical Engineering, TIET, Patiala"
-    },
-    {
-        name: "Dr. Sharad Saxena",
-        img: require("./images/sharadsaxena.jpg"),
-        dept: "Computer Science & Eng, TIET, Patiala"
-    },
-    {
-        name: "Dr. Amit Dhir",
-        img: require("./images/amitdhir.jpg"),
-        dept: "Energy & Environment, TIET, Patiala"
-    },
-    {
-        name: "Dr. Bonamali Pal",
-        img: require("./images/bonamalipal.jpg"),
-        dept: "Chemistry & Biochemistry, TIET Patiala"
-    },
-    {
-        name: "Dr. B K Chudasama",
-        img: require("./images/bkchudasama.jpg"),
-        dept: "Physics & Material Science, TIET, Patiala"
-    }
-];
+  {
+    name: "Dr. Bonamali Pal",
+    img: require("./images/bonamalipal.jpg"),
+    dept: "Chemistry & Biochemistry, TIET Patiala",
+  },
+  {
+    name: "Dr. B K Chudasama",
+    img: require("./images/bkchudasama.jpg"),
+    dept: "Physics & Material Science, TIET, Patiala",
+  },
+  {
+    name: "Dr. B. C. Mohanty",
+    img: require("./images/bcmohantay.jpg"),
+    dept: "Physics & Material Science, TIET, Patiala",
+  },
+  {
+    name: "Dr. Amit Dhir",
+    img: require("./images/amitdhir.jpg"),
+    dept: "Energy & Environment, TIET, Patiala",
+  },
+  {
+    name: "Dr. Dwarika N. Ratha",
+    img: require("./images/dvarikanratha.jpg"),
+    dept: "Civil Engineering, TIET, Patiala",
+  },
+  {
+    name: "Dr. S. S. Mallick",
+    img: require("./images/ssmalick.jpg"),
+    dept: "Mechanical Engineering, TIET, Patiala",
+  },
+  {
+    name: "Dr. Anoop Verma",
+    img: require("./images/anoopverma.jpg"),
+    dept: "Energy & Environment, TIET Patiala",
+  },
+  {
+    name: "Dr. Sapna Sharma",
+    img: require("./images/sapnasharma.jpg"),
+    dept: "Mathematics, TIET Patiala",
+  },
+  {
+    name: "Dr. Sharad Saxena",
+    img: require("./images/sharadsaxena.jpg"),
+    dept: "Computer Science & Eng, TIET, Patiala",
+  },
 
+  {
+    name: "Dr. D. Choudhury",
+    img: require("./images/Dchoudhury.jpg"),
+    dept: " Chemistry & Biochemistry, TIET Patiala",
+  },
+  {
+    name: "Dr. Shilpi Verma",
+    img: require("./images/shilpiverma.jpg"),
+    dept: "Energy & Environment, TIET Patiala",
+  },
+  {
+    name: "Dr. Bunushree Behera",
+    img: require("./images/BunushreeBehera.png"),
+    dept: "Biotechnology, TIET, Patiala",
+  },
+  {
+    name: "Dr. Jyotsana Mehta",
+    img: require("./images/JyotsanaMehta.jpg"),
+    dept: "Biotechnology, TIET, Patiala",
+  },
+];
 
 const Chairperson = {
   name: "Prof. Rajeev Meheta",
@@ -178,8 +193,8 @@ export default function Committee() {
               <div className="orgcommember">
                 <img src={member.img} alt="" className="orgcommemberimg" />
                 <div>
-                    <h5>{member.name}</h5>
-                    <p>{member.dept}</p>
+                  <h5>{member.name}</h5>
+                  <p>{member.dept}</p>
                 </div>
               </div>
             ))}
