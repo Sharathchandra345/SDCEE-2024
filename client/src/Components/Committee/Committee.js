@@ -170,6 +170,24 @@ export default function Committee() {
             <p className="patronpost">Deputy Director, TIET</p>
           </div>
         </div>
+
+        <div className="orgcom">
+          <h1>ORGANIZING COMMITTEE</h1>
+
+          <div className="orgcommembers">
+            {organizing.map((member, i) => (
+              <div className="orgcommember">
+                <img src={member.img} alt="" className="orgcommemberimg" />
+                <div>
+                    <h5>{member.name}</h5>
+                    <p>{member.dept}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        
         <div className="orgcom">
           <h1>ORGANIZING COMMITTEE</h1>
 
@@ -208,7 +226,7 @@ export default function Committee() {
 
             <h5 className="post">Web Designers</h5>
             <p className="name">Tithi Srivastava</p>
-            <p className="name">Akhilesh Bhardvaj</p>
+            <p className="name">Akhilesh Bhardwaj</p>
             <p className="name">Saanvi Mangla</p>
             <p className="name">Arnav Gupta</p>
 

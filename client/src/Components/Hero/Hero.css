@@ -30,6 +30,10 @@
   right: 0;
   z-index: 100;
   clip-path: polygon(50% 0, 100% 0%, 100% 100%, 0% 100%);
+
+  background-image: url("./hero.png");
+  background-position: left;
+  background-size: cover;
 }
 
 .hero-text {
