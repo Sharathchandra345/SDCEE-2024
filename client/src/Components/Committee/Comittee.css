@@ -4,80 +4,75 @@
 
 .patrons {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   z-index: -100;
 }
 
 .patrons::after {
   position: absolute;
   width: 100%;
-  height: 100px;
+  height: 70px;
   content: " ";
   align-self: center;
   justify-self: center;
   background-color: rgb(0, 97, 0);
-
   z-index: 0;
 }
 
 .patron {
-  height: 500px;
+  height: 300px;
   aspect-ratio: 1;
   background-color: lightgray;
-  margin: 100px 0;
-  padding-top: 40px;
-
+  margin-top: 120px;
+  margin-bottom: 110px;
+  padding-top: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
   z-index: 100;
 }
 
 .patronhead {
   font-family: "Times New Roman", Times, serif;
   margin: 0;
-
   color: orangered;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 .orgcom {
   background-color: lightgray;
   width: 100%;
-
-    display: flex;
-
+  display: flex;
   padding: 100px 100px;
   border-radius: 10px;
 
   flex-wrap: wrap;
 }
 
-.orgcommembers{
-    width: calc(100%-200px);
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+.orgcommembers {
+  width: calc(100%-200px);
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.orgcommember{
-    display: flex;
-    flex-grow: 1;
-    margin-top: 50px;
-    flex-basis: 50%;
+.orgcommember {
+  display: flex;
+  flex-grow: 1;
+  margin-top: 50px;
+  flex-basis: 50%;
 }
 
-.orgcommemberimg{
-    width: 75px;
-    aspect-ratio: 1;
-    border-radius: 100px;
-    
-    margin-right: 20px;
-    box-shadow: 0 5px 10px #00000099;
-    object-fit: cover;
-    object-position: top;
+.orgcommemberimg {
+  width: 75px;
+  aspect-ratio: 1;
+  border-radius: 100px;
+
+  margin-right: 20px;
+  box-shadow: 0 5px 10px #00000099;
+  object-fit: cover;
+  object-position: top;
 }
 
 .othercom {
@@ -122,15 +117,15 @@
   color: black;
 }
 
+.v-center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 
-.v-center{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    height: 100%;
+  height: 100%;
 }
 
-.v-center > h6, p{
-    margin: 0;
+.v-center > h6,
+p {
+  margin: 0;
 }

@@ -15,7 +15,6 @@ function App() {
   return (
     <BrowserRouter>
       <div className="cont">
-        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Registration />} />
@@ -29,7 +28,8 @@ function App() {
 function Home() {
   return (
     <>
-      <Hero />s
+      <Navbar />
+      <Hero />
       <Two />
       <Three />
       <Committee />

@@ -72,7 +72,7 @@ const organizing = [
 
 const coreteam = [
   {
-    name: "Prof. Rajeev Meheta",
+    name: "Prof. Rajeev Mehta",
     img: require("./images/rajeevmeheta.jpg"),
     role: "Chairperson",
   },
@@ -177,9 +177,9 @@ export default function Committee() {
             <img
               src={require("./images/padmakumarnair.jpg")}
               alt=""
-              width={"60%"}
+              width={"45%"}
             />
-            <h2 className="patronhead">Chief Patron</h2>
+            <h4 className="patronhead">Chief Patron</h4>
             <h5 className="patronname">Prof. Padmakumar Nair</h5>
             <p className="patronpost">Director, TIET</p>
           </div>
@@ -187,16 +187,15 @@ export default function Committee() {
             <img
               src={require("./images/ajaybatish.jpg")}
               alt=""
-              width={"60%"}
+              width={"45%"}
             />
-            <h2 className="patronhead">Patron</h2>
+            <h4 className="patronhead">Patron</h4>
             <h5 className="patronname">Prof. Ajay Batish</h5>
             <p className="patronpost">Deputy Director, TIET</p>
           </div>
         </div>
 
-
-        <div className="orgcom" style={{marginBottom: "100px"}}>
+        <div className="orgcom" style={{ marginBottom: "100px" }}>
           <h1>CORE TEAM</h1>
 
           <div className="orgcommembers">
@@ -212,8 +211,6 @@ export default function Committee() {
           </div>
         </div>
 
-
-
         <div className="orgcom">
           <h1>ORGANIZING COMMITTEE</h1>
 
@@ -222,8 +219,8 @@ export default function Committee() {
               <div className="orgcommember">
                 <img src={member.img} alt="" className="orgcommemberimg" />
                 <div>
-                    <h5>{member.name}</h5>
-                    <p>{member.dept}</p>
+                  <h5>{member.name}</h5>
+                  <p>{member.dept}</p>
                 </div>
               </div>
             ))}

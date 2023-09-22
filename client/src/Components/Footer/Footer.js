@@ -9,13 +9,17 @@ export default function Footer() {
           alt="logo"
           className="logo-footer"
         />
-        <p className="para">
-          The Department of Chemical Engineering of Thapar Institute of
-          Engineering & Technology was established in 1992 with the Ph.D
-          programme. In order to ensure a broad-based education, both the theory
-          and practical aspects of Chemical Engineering discipline are
-          emphasized.
-        </p>
+        <div className="map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6885.614726205045!2d76.35568897770997!3d30.3564242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391028ab86533db5%3A0x93cc1f72eae1c9a8!2sThapar%20Institute%20of%20Engineering%20%26%20Technology!5e0!3m2!1sen!2sin!4v1695391337140!5m2!1sen!2sin"
+            width="290px"
+            height="200px"
+            style={{ border: 0 }}
+            allowFullScreen=""
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
       </div>
 
       <div className="useful-links">
@@ -24,12 +28,6 @@ export default function Footer() {
           <div className="yellow-line"></div>
         </div>
         <ul className="ul-footer">
-          <li>
-            <a href="#" className="ftr-links">
-              <span className="bullet-point">&#9658;</span> Home
-            </a>
-            <div className="white-line"></div>
-          </li>
           <li>
             <a href="https://ched.thapar.edu/" className="ftr-links">
               <span className="bullet-point">&#9658;</span> About Department
