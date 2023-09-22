@@ -70,32 +70,41 @@ const organizing = [
   },
 ];
 
-const Chairperson = {
-  name: "Prof. Rajeev Meheta",
-};
-
-const Convener = {
-  name: "Dr. Avinash Chandra",
-};
-
-const Orgsecs = [
+const coreteam = [
+  {
+    name: "Prof. Rajeev Meheta",
+    img: require("./images/rajeevmeheta.jpg"),
+    role: "Chairperson",
+  },
+  {
+    name: "Dr. Avinash Chandra",
+    img: require("./images/avinashchandra.jpg"),
+    role: "Convener",
+  },
   {
     name: "Dr. Sangmitra Barman",
+    img: require("./images/sanghita.jpg"),
+    role: "Organizing Secretary",
   },
   {
     name: "Dr. Jaiprakash Kushwaha",
+    img: require("./images/jaiprakashkhushwaha.jpg"),
+    role: "Organizing Secretary",
   },
   {
     name: "Dr. Neetu Singh",
+    img: require("./images/neetusingh.jpg"),
+    role: "Organizing Secretary",
   },
-];
-
-const jointsecs = [
   {
     name: "Dr. Vivek Pawar",
+    img: require("./images/vivekpawar.jpg"),
+    role: "Joint Secretary",
   },
   {
     name: "Dr. Himali Horo",
+    img: require("./images/himalihoro.jpg"),
+    role: "Joint Secretary",
   },
 ];
 
@@ -186,6 +195,25 @@ export default function Committee() {
           </div>
         </div>
 
+
+        <div className="orgcom" style={{marginBottom: "100px"}}>
+          <h1>CORE TEAM</h1>
+
+          <div className="orgcommembers">
+            {coreteam.map((member, i) => (
+              <div className="orgcommember">
+                <img src={member.img} alt="" className="orgcommemberimg" />
+                <div>
+                  <h5>{member.name}</h5>
+                  <p>{member.role}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+
+
         <div className="orgcom">
           <h1>ORGANIZING COMMITTEE</h1>
 
@@ -196,23 +224,6 @@ export default function Committee() {
                 <div>
                     <h5>{member.name}</h5>
                     <p>{member.dept}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        
-        <div className="orgcom">
-          <h1>ORGANIZING COMMITTEE</h1>
-
-          <div className="orgcommembers">
-            {organizing.map((member, i) => (
-              <div className="orgcommember">
-                <img src={member.img} alt="" className="orgcommemberimg" />
-                <div>
-                  <h5>{member.name}</h5>
-                  <p>{member.dept}</p>
                 </div>
               </div>
             ))}
