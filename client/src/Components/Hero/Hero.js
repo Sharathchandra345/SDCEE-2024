@@ -7,12 +7,12 @@ export default function Hero() {
       <div className="hero" id="hero">
         <div className="hero-left">
           <div className="hero-text">
-            <h1 className="hero-head"> SDCEE 2024 </h1>
-            <h5>
+            <h1 className="hero-head"> SDCEE-2024 </h1>
+            <h4>
               {" "}
               International Conference on <br /> "Sustainable Development in
               Chemical and <br /> Environmental Engineering"
-            </h5>
+            </h4>
 
             <h3 className="mt-5"> February 22-24, 2024 </h3>
             <button className="hero-reg mt-3 blink">

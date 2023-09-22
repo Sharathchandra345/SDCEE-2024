@@ -6,7 +6,7 @@ export default function Two() {
     <div className="two" id="about">
       <div className="wrapper">
         <br />
-        <h1>About the Conference</h1>
+        <h1>The Conference</h1>
         <hr />
         <p>
           The International Conference on “Sustainable Development in Chemical
@@ -33,21 +33,35 @@ export default function Two() {
           for researchers and industry professionals.
         </p>
         <div className="topics">
-          <h4>Themes to be covered in the conference</h4>
+          <h4>Conference Themes</h4>
           <p>
             The conference theme is encapsulated in the following subject areas,
             with an openness to explore additional related topics:
           </p>
           <ul>
-            <li>Chemical & Process Engineering </li>
-            <li>Sustainable Environmental Solutions</li>
-            <li>Advancements in Energy Engineering</li>
-            <li>Materials in Engineering</li>
-            <li>Modeling and Simulation of Processes</li>
-            <li>Bioprocessing and Food Engineering</li>
             <li>
-              AI, Machine Learning, and Data Analytics in Process
-              Design/Optimization
+              <strong>Chemical & Process Engineering </strong>
+            </li>
+            <li>
+              <strong>Sustainable Environmental Solutions</strong>
+            </li>
+            <li>
+              <strong>Advancements in Energy Engineering</strong>
+            </li>
+            <li>
+              <strong>Materials in Engineering</strong>
+            </li>
+            <li>
+              <strong>Modeling and Simulation of Processes</strong>
+            </li>
+            <li>
+              <strong>Bioprocessing and Food Engineering</strong>
+            </li>
+            <li>
+              <strong>
+                AI, Machine Learning, and Data Analytics in Process
+                Design/Optimization
+              </strong>
             </li>
           </ul>
         </div>

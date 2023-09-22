@@ -16,15 +16,15 @@ export default function Three() {
             </li>
             <li>
               <strong>Notification of Acceptance</strong> October 01,2023 -
-              December 31, 2024
+              December 31, 2023
             </li>
             <li>
               <strong>Early Bird Registration Start</strong> October
               01,2023-December 15,2023
             </li>
             <li>
-              <strong>Full Paper (Selected) Submission:</strong> October 01,2023
-              - January 31,2024
+              <strong>Full Paper (Selected) Submission:</strong> October 15,2023
+              - January 15,2024
             </li>
             <li>
               <strong>Conference Date:</strong> February 22-24 ,2024

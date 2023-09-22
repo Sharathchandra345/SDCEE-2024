@@ -8,20 +8,35 @@ import Footer from "./Components/Footer/Footer";
 import Five from "./Components/Five/Five";
 import Six from "./Components/Six/Six";
 import Committee from "./Components/Committee/Committee";
+import Registration from "./pages/registration";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    <div className="cont">
-      <Navbar />
-      <Hero />
+    <BrowserRouter>
+      <div className="cont">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Registration />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  );
+}
+
+function Home() {
+  return (
+    <>
+      <Hero />s
       <Two />
       <Three />
+      <Committee />
       <Four />
       <Five />
       <Six />
-      <Committee/>
-      <Footer />
-    </div>
+    </>
   );
 }
 
