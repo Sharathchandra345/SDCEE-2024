@@ -232,7 +232,7 @@ export default function Committee() {
             <h3 className="corehead">Organizing Secretaries</h3>
 
             {orgsecs.map((member, i) => (
-              <div className="orgcommember">
+              <div className="orgcommember orgsecs">
                 <img src={member.img} alt="" className="orgcommemberimg" />
                 <div>
                   <h5>{member.name}</h5>

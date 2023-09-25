@@ -84,6 +84,10 @@
   align-items: center;
 }
 
+.orgsecs{
+  flex-basis: 33%;
+}
+
 .color-role {
   color: #7a1010;
 }
