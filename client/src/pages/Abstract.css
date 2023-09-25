@@ -1,0 +1,47 @@
+.abs-para {
+  margin: 20px;
+  font-size: 1.8rem;
+}
+
+.abs-topics {
+  margin: 20px;
+}
+.abs-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.abs-gray {
+  background-color: #d2d8dd;
+  padding: 20px;
+}
+.abs-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pdf,
+.abs-btn {
+  width: 90%;
+  padding: 20px;
+  background-color: #450808;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 11px;
+  display: flex;
+  justify-content: center;
+}
+
+.pdf {
+  margin-left: 20vw;
+}
+
+.abs-btn {
+  margin-right: 20vw;
+}
+
+.abs-btn {
+  margin-left: 10px;
+}

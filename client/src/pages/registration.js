@@ -28,7 +28,7 @@ export default function Registration() {
             <a className="nav-link">Speakers</a>
           </Link>
           <Link smooth to="" className="text-link">
-            <a className="nav-link">Abstract Submission</a>
+            <a className="nav-link">Abstract/Paper Submission</a>
           </Link>
           <Link smooth to="/#dates" className="text-link">
             <a className="nav-link">Schedule</a>

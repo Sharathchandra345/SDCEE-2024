@@ -9,6 +9,7 @@ import Five from "./Components/Five/Five";
 import Six from "./Components/Six/Six";
 import Committee from "./Components/Committee/Committee";
 import Registration from "./pages/registration";
+import Abstract from "./pages/Abstract";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Speakers from "./Components/Speakers/Speakers";
 
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/register" element={<Registration />} />
+          <Route path="/abstract" element={<Abstract />} />
         </Routes>
         <Footer />
       </div>

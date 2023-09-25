@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
-
+import { HashLink as Link } from "react-router-hash-link";
+import { BrowserRouter, Route, Switch, Routes, Router } from "react-router-dom";
 export default function Hero() {
   return (
     <>
@@ -15,9 +16,11 @@ export default function Hero() {
             </h4>
 
             <h3 className="mt-5"> February 22-24, 2024 </h3>
-            <button className="hero-reg mt-3 blink">
-              <span>Register</span>
-            </button>
+            <Link smooth to="/register" className="text-link">
+              <button className="hero-reg mt-3 blink">
+                <span>Register</span>
+              </button>
+            </Link>
           </div>
         </div>
         <div className="hero-right"></div>
