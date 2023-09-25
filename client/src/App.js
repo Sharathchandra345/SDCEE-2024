@@ -35,7 +35,7 @@ function Home() {
       <Hero />
       <Two />
       <Three />
-      {/* <Speakers/> */}
+      <Speakers/>
       <Four />
       <Committee />
       <Five />
