@@ -195,16 +195,20 @@ export default function Committee() {
           </div>
         </div>
 
-        <div className="orgcom" style={{ marginBottom: "100px" }}>
-          <h1>CORE TEAM</h1>
+
+        <div className="orgcom" style={{marginBottom: "100px"}}>
+          <div>
+            <h1>CORE TEAM</h1>
+            <h6>Department of Chemical Engineering, TIET Patiala</h6>
+          </div>
 
           <div className="orgcommembers">
             {coreteam.map((member, i) => (
               <div className="orgcommember">
                 <img src={member.img} alt="" className="orgcommemberimg" />
                 <div>
-                  <h5>{member.name}</h5>
                   <p>{member.role}</p>
+                  <h5>{member.name}</h5>
                 </div>
               </div>
             ))}
