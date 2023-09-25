@@ -20,7 +20,7 @@
 }
 
 .patron {
-  height: 300px;
+  height: 400px;
   aspect-ratio: 1;
   background-color: lightgray;
   margin-top: 120px;
@@ -31,6 +31,13 @@
   justify-content: center;
   align-items: center;
   z-index: 100;
+}
+
+.patronname{
+  margin: 0px;
+  padding: 00px;
+
+  margin-top: 20px;
 }
 
 .patronhead {
@@ -50,6 +57,11 @@
   flex-wrap: wrap;
 }
 
+.corehead{
+  flex-basis: 100%;
+  margin-top: 50px;
+}
+
 .orgcommembers {
   width: calc(100%-200px);
   display: flex;
@@ -59,9 +71,16 @@
 
 .orgcommember {
   display: flex;
+  align-items: center;
   flex-grow: 1;
   margin-top: 50px;
   flex-basis: 50%;
+}
+
+.secs{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .orgcommemberimg {
@@ -73,6 +92,11 @@
   box-shadow: 0 5px 10px #00000099;
   object-fit: cover;
   object-position: top;
+}
+
+.secsimg{
+  width: 150px;
+  margin-right: 0;
 }
 
 .othercom {
