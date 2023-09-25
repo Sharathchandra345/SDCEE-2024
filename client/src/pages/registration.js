@@ -84,11 +84,13 @@ export default function Registration() {
             </p>
           </div>
           <div className="button-container">
-            <a href="https://forms.gle/BwTenJaU7qAQLbAw8">
+            <a href="https://forms.gle/BwTenJaU7qAQLbAw8" target="_blank">
               <button>Link to Register</button>
             </a>
             <br />
-            <button>Submission Link</button>
+            <a href="/abstract">
+              <button>Submission Link</button>
+            </a>
           </div>
           <div className="key-dates">
             <h2>Payment Details</h2>

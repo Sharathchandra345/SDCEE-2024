@@ -29,25 +29,33 @@ export default function Footer() {
         </div>
         <ul className="ul-footer">
           <li>
-            <a href="https://ched.thapar.edu/" className="ftr-links">
+            <a
+              href="https://ched.thapar.edu/"
+              target="_blank"
+              className="ftr-links"
+            >
               <span className="bullet-point">&#9658;</span> About Department
             </a>
             <div className="white-line"></div>
           </li>
           <li>
-            <a href="https://www.thapar.edu/" className="ftr-links">
+            <a
+              href="https://www.thapar.edu/"
+              target="_blank"
+              className="ftr-links"
+            >
               <span className="bullet-point">&#9658;</span> About The Institute
             </a>
             <div className="white-line"></div>
           </li>
           <li>
-            <a href="#" className="ftr-links">
+            <a href="/abstract" className="ftr-links">
               <span className="bullet-point">&#9658;</span> Abstract Submission
             </a>
             <div className="white-line"></div>
           </li>
           <li>
-            <a href="https://forms.gle/BwTenJaU7qAQLbAw8" className="ftr-links">
+            <a href="/register" className="ftr-links">
               <span className="bullet-point">&#9658;</span> Registration Link
             </a>
             <div className="white-line"></div>
