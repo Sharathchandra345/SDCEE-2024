@@ -80,7 +80,11 @@ const coreteam = [
     name: "Dr. Avinash Chandra",
     img: require("./images/avinashchandra.jpg"),
     role: "Convener",
-  },
+  },  
+];
+
+const orgsecs = [
+
   {
     name: "Dr. Sangmitra Barman",
     img: require("./images/sanghita.jpg"),
@@ -95,7 +99,11 @@ const coreteam = [
     name: "Dr. Neetu Singh",
     img: require("./images/neetusingh.jpg"),
     role: "Organizing Secretary",
-  },
+  }
+
+]
+
+const jointsecs = [
   {
     name: "Dr. Vivek Pawar",
     img: require("./images/vivekpawar.jpg"),
@@ -106,7 +114,7 @@ const coreteam = [
     img: require("./images/himalihoro.jpg"),
     role: "Joint Secretary",
   },
-];
+]
 
 const advcom = [
   { name: "Prof. Shang Dai", department: "University of Leeds, UK" },
@@ -179,8 +187,8 @@ export default function Committee() {
               alt=""
               width={"45%"}
             />
-            <h4 className="patronhead">Chief Patron</h4>
             <h5 className="patronname">Prof. Padmakumar Nair</h5>
+            <h4 className="patronhead">Chief Patron</h4>
             <p className="patronpost">Director, TIET</p>
           </div>
           <div className="patron" style={{ marginTop: "300px" }}>
@@ -189,8 +197,8 @@ export default function Committee() {
               alt=""
               width={"45%"}
             />
-            <h4 className="patronhead">Patron</h4>
             <h5 className="patronname">Prof. Ajay Batish</h5>
+            <h4 className="patronhead">Patron</h4>
             <p className="patronpost">Deputy Director, TIET</p>
           </div>
         </div>
@@ -203,15 +211,47 @@ export default function Committee() {
           </div>
 
           <div className="orgcommembers">
+
             {coreteam.map((member, i) => (
+              <div className="orgcommember secs">
+                <div>
+                  <h3>{member.role}</h3>
+                </div>
+              </div>
+            ))}
+
+            {coreteam.map((member, i) => (
+              <div className="orgcommember secs">
+                <img src={member.img} alt="" className="orgcommemberimg secsimg" />
+                <div>
+                  <h5 style={{marginTop: "20px"}}>{member.name}</h5>
+                </div>
+              </div>
+            ))}
+
+            <h3 className="corehead">Organizing Secretaries</h3>
+
+            {orgsecs.map((member, i) => (
               <div className="orgcommember">
                 <img src={member.img} alt="" className="orgcommemberimg" />
                 <div>
-                  <p>{member.role}</p>
                   <h5>{member.name}</h5>
                 </div>
               </div>
             ))}
+
+            <h3 className="corehead">Joint Secretaries</h3>
+
+            {jointsecs.map((member, i) => (
+              <div className="orgcommember">
+                <img src={member.img} alt="" className="orgcommemberimg" />
+                <div>
+                  <h5>{member.name}</h5>
+                </div>
+              </div>
+            ))}
+
+
           </div>
         </div>
 
