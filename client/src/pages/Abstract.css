@@ -1,8 +1,10 @@
 .abs-para {
   margin: 20px;
-  font-size: 1.8rem;
+  font-size: 1rem;
 }
-
+.maroon-abs {
+  color: black;
+}
 .abs-topics {
   margin: 20px;
 }
@@ -12,7 +14,7 @@
   align-items: center;
 }
 .abs-gray {
-  background-color: #d2d8dd;
+  /* background-color: #d2d8dd; */
   padding: 20px;
 }
 .abs-links {

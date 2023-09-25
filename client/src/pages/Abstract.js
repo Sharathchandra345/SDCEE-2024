@@ -54,8 +54,8 @@ export default function Registration() {
           <div className="register-center">
             <p className="abs-para">
               Welcome to the abstract submission for the International
-              Conference on Sustainable Development in Chemical and
-              Environmental Engineering (SDCEE-2024).
+              Conference on "Sustainable Development in Chemical and
+              Environmental Engineering"(SDCEE-2024).
             </p>
           </div>
           <div className="topics abs-topics">
@@ -65,38 +65,26 @@ export default function Registration() {
               areas, with an openness to explore additional related topics:
             </p>
             <ul>
+              <li>Chemical & Process Engineering </li>
+              <li>Sustainable Environmental Solutions</li>
+              <li>Advancements in Energy Engineering</li>
+              <li>Materials in Engineering</li>
+              <li>Modeling and Simulation of Processes</li>
+              <li>Bioprocessing and Food Engineering</li>
               <li>
-                <strong>Chemical & Process Engineering </strong>
-              </li>
-              <li>
-                <strong>Sustainable Environmental Solutions</strong>
-              </li>
-              <li>
-                <strong>Advancements in Energy Engineering</strong>
-              </li>
-              <li>
-                <strong>Materials in Engineering</strong>
-              </li>
-              <li>
-                <strong>Modeling and Simulation of Processes</strong>
-              </li>
-              <li>
-                <strong>Bioprocessing and Food Engineering</strong>
-              </li>
-              <li>
-                <strong>
-                  AI, Machine Learning, and Data Analytics in Process
-                  Design/Optimization
-                </strong>
+                AI, Machine Learning, and Data Analytics in Process
+                Design/Optimization
               </li>
             </ul>
           </div>
           <div className="register-center">
             <div className="abs-gray">
-              <h4>
-                We invite authors to submit abstracts (300 words) in PDF, DOC,
-                or DOCX format.
-              </h4>
+              <p className="maroon-abs">
+                <strong>
+                  We invite authors to submit abstracts (300 words) in PDF, DOC,
+                  or DOCX format.
+                </strong>
+              </p>
             </div>
           </div>
           <div className="abs-links">

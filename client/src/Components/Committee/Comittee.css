@@ -84,8 +84,9 @@
   align-items: center;
 }
 
-.orgsecs{
+.orgsecs {
   flex-basis: 33%;
+  gap: 3px;
 }
 
 .color-role {

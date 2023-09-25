@@ -78,19 +78,37 @@ export default function Registration() {
                 <strong>Listener/Accompanying Person (Indian) </strong> INR 2000
               </li>
             </ul>
-            <p>
-              *Registration fee includes registration kit, lunch,
-              conference/gala dinner, and tea during the conference sessions.
-            </p>
+            <div className="register-guide">
+              <ul className="guide-reg">
+                <li>
+                  All the participants have to submit the registration fee
+                  through Payment Gateway link available on the website, in
+                  order to attend/present paper in the conference. E-receipt can
+                  be downloaded from payment portal after successful payment
+                  process.
+                </li>
+                <li>
+                  Once the payment has been done, the authors need to fill the
+                  registration form for their confirmation.
+                </li>
+                <li>
+                  {" "}
+                  Registration fee includes registration kit, lunch, conference/
+                  gala dinner, and tea during the conference sessions.
+                </li>
+              </ul>
+            </div>
           </div>
           <div className="button-container">
             <a href="https://forms.gle/BwTenJaU7qAQLbAw8" target="_blank">
               <button>Link to Register</button>
             </a>
-            <br />
+            {/* <br />
+            <Link smooth to="/abstract" className="text-link"> */}
             <a href="/abstract">
               <button>Submission Link</button>
             </a>
+            {/* <Link/> */}
           </div>
           <div className="key-dates">
             <h2>Payment Details</h2>

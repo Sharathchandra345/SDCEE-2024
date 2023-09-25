@@ -83,3 +83,10 @@
 .button-container button:hover {
   background-color: #748f1a;
 }
+
+.guide-reg li {
+  list-style-type: square;
+}
+.register-guide {
+  margin-left: 20px;
+}

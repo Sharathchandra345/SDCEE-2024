@@ -5,8 +5,10 @@ export default function Two() {
   return (
     <div className="two" id="about">
       <div className="wrapper">
-        <br />
-        <h1>The Conference</h1>
+        <div className="imgcont">
+          <h1>The Conference</h1>
+          <img src={require("./Mission.png")} alt="logo" className="img-two" />
+        </div>
         <hr />
         <p>
           The International Conference on “Sustainable Development in Chemical
