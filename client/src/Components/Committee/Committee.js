@@ -80,11 +80,10 @@ const coreteam = [
     name: "Dr. Avinash Chandra",
     img: require("./images/avinashchandra.jpg"),
     role: "Convener",
-  },  
+  },
 ];
 
 const orgsecs = [
-
   {
     name: "Dr. Sangmitra Barman",
     img: require("./images/sanghita.jpg"),
@@ -99,9 +98,8 @@ const orgsecs = [
     name: "Dr. Neetu Singh",
     img: require("./images/neetusingh.jpg"),
     role: "Organizing Secretary",
-  }
-
-]
+  },
+];
 
 const jointsecs = [
   {
@@ -114,7 +112,7 @@ const jointsecs = [
     img: require("./images/himalihoro.jpg"),
     role: "Joint Secretary",
   },
-]
+];
 
 const advcom = [
   { name: "Prof. Shang Dai", department: "University of Leeds, UK" },
@@ -203,28 +201,30 @@ export default function Committee() {
           </div>
         </div>
 
-
-        <div className="orgcom" style={{marginBottom: "100px"}}>
+        <div className="orgcom" style={{ marginBottom: "100px" }}>
           <div>
             <h1>CORE TEAM</h1>
             <h6>Department of Chemical Engineering, TIET Patiala</h6>
           </div>
 
           <div className="orgcommembers">
-
             {coreteam.map((member, i) => (
               <div className="orgcommember secs">
                 <div>
-                  <h3>{member.role}</h3>
+                  <h3 className="color-role">{member.role}</h3>
                 </div>
               </div>
             ))}
 
             {coreteam.map((member, i) => (
               <div className="orgcommember secs">
-                <img src={member.img} alt="" className="orgcommemberimg secsimg" />
+                <img
+                  src={member.img}
+                  alt=""
+                  className="orgcommemberimg secsimg"
+                />
                 <div>
-                  <h5 style={{marginTop: "20px"}}>{member.name}</h5>
+                  <h5 style={{ marginTop: "20px" }}>{member.name}</h5>
                 </div>
               </div>
             ))}
@@ -250,8 +250,6 @@ export default function Committee() {
                 </div>
               </div>
             ))}
-
-
           </div>
         </div>
 

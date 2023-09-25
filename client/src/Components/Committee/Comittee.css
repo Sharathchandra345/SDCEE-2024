@@ -33,7 +33,7 @@
   z-index: 100;
 }
 
-.patronname{
+.patronname {
   margin: 0px;
   padding: 00px;
 
@@ -57,9 +57,10 @@
   flex-wrap: wrap;
 }
 
-.corehead{
+.corehead {
   flex-basis: 100%;
   margin-top: 50px;
+  color: #7a1010;
 }
 
 .orgcommembers {
@@ -77,10 +78,14 @@
   flex-basis: 50%;
 }
 
-.secs{
+.secs {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.color-role {
+  color: #7a1010;
 }
 
 .orgcommemberimg {
@@ -94,7 +99,7 @@
   object-position: top;
 }
 
-.secsimg{
+.secsimg {
   width: 150px;
   margin-right: 0;
 }
