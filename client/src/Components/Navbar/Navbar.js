@@ -8,6 +8,7 @@ import Registration from "../../pages/registration";
   <Routes>
     <Route path="/" element={<Navbar />} />
     <Route path="/register" element={<Registration />} />
+    <Route path="/abstract" element={<Abstract />} />
   </Routes>;
 }
 
@@ -29,8 +30,8 @@ export default function Navbar() {
         <Link smooth to="#speakers" className="text-link">
           <a className="nav-link">Speakers</a>
         </Link>
-        <Link smooth to="" className="text-link">
-          <a className="nav-link">Abstract Submission</a>
+        <Link smooth to="/abstract" className="text-link">
+          <a className="nav-link">Abstract/Paper Submission</a>
         </Link>
         <Link smooth to="#dates" className="text-link">
           <a className="nav-link">Schedule</a>
