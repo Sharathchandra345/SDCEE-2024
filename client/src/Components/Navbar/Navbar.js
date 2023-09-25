@@ -4,6 +4,7 @@ import logo from "./logo.png";
 import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter, Route, Switch, Routes, Router } from "react-router-dom";
 import Registration from "../../pages/registration";
+import Abstract from "../../pages/Abstract";
 {
   <Routes>
     <Route path="/" element={<Navbar />} />

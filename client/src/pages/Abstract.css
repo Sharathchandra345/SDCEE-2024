@@ -45,3 +45,9 @@
 .abs-btn {
   margin-left: 10px;
 }
+
+.abs-none {
+  text-decoration: none;
+  color: white;
+  width: 100%;
+}
