@@ -34,6 +34,13 @@ export default function Two() {
           chemical and environmental engineering, making it an important event
           for researchers and industry professionals.
         </p>
+        <br />
+        <p>
+          <strong>
+            The conference will be held in a hybrid mode, incorporating both
+            virtual and in-person participation.
+          </strong>
+        </p>
         <div className="topics">
           <h4>Conference Themes</h4>
           <p>

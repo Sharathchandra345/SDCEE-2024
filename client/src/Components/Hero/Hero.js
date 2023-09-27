@@ -6,26 +6,33 @@ export default function Hero() {
   return (
     <>
       <div className="hero" id="hero">
-        <div className="hero-left">
-          <div className="hero-text">
-            <h1 className="hero-head"> SDCEE-2024 </h1>
-            <h4>
-              {" "}
-              International Conference on <br /> "Sustainable Development in
-              Chemical and <br /> Environmental Engineering"
-            </h4>
-
-            <h3 className="mt-5"> February 22-24, 2024 </h3>
-            <Link smooth to="/register" className="text-link">
-              <button className="hero-reg mt-3 blink">
-                <span>Register</span>
-              </button>
-            </Link>
+        <div className="marquee-container">
+          <div className="marquee-text">
+            <strong>Call for Abstract Submission till 20 November 2023</strong>
           </div>
         </div>
-        <div className="hero-right"></div>
-      </div>
+        <div className="hero-content">
+          <div className="hero-left">
+            <div className="hero-text">
+              <h1 className="hero-head"> SDCEE-2024 </h1>
+              <h4>
+                {" "}
+                International Conference on <br /> "Sustainable Development in
+                Chemical and <br /> Environmental Engineering"
+              </h4>
 
+              <h3 className="mt-5"> February 22-24, 2024 </h3>
+              <Link smooth to="/register" className="text-link">
+                <button className="hero-reg mt-3 blink">
+                  <span>Register</span>
+                </button>
+              </Link>
+            </div>
+          </div>
+          <div className="hero-right"></div>
+        </div>
+      </div>
+      <br />
       <div className="wave">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 230">
           <path

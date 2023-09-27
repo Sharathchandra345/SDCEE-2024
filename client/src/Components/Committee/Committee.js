@@ -85,7 +85,7 @@ const coreteam = [
 
 const orgsecs = [
   {
-    name: "Dr. Sangmitra Barman",
+    name: "Dr. Sanghamitra Barman",
     img: require("./images/sanghita.jpg"),
     role: "Organizing Secretary",
   },
@@ -131,6 +131,10 @@ const advcom = [
   {
     name: "Prof. Rajat Chakrabarty",
     department: "Jadavpur University, Kolkata, INDIA",
+  },
+  {
+    name: "Prof. Gopinath Halder",
+    department: "NIT Durgapur, India",
   },
   { name: "Dr. Bhanu Pratap Singh", department: "CSIR-NPL, New Delhi, INDIA" },
   {

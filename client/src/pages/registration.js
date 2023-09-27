@@ -27,7 +27,7 @@ export default function Registration() {
           <Link smooth to="/#speakers" className="text-link">
             <a className="nav-link">Speakers</a>
           </Link>
-          <Link smooth to="" className="text-link">
+          <Link smooth to="/abstract" className="text-link">
             <a className="nav-link">Abstract/Paper Submission</a>
           </Link>
           <Link smooth to="/#dates" className="text-link">
@@ -103,12 +103,12 @@ export default function Registration() {
             <a href="https://forms.gle/BwTenJaU7qAQLbAw8" target="_blank">
               <button>Link to Register</button>
             </a>
-            {/* <br />
-            <Link smooth to="/abstract" className="text-link"> */}
-            <a href="/abstract">
-              <button>Submission Link</button>
-            </a>
-            {/* <Link/> */}
+            <br />
+            <Link smooth to="/abstract" className="text-link">
+              <a href="">
+                <button>Submission Link</button>
+              </a>
+            </Link>
           </div>
           <div className="key-dates">
             <h2>Payment Details</h2>
