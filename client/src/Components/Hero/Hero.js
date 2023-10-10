@@ -8,7 +8,10 @@ export default function Hero() {
       <div className="hero" id="hero">
         <div className="marquee-container">
           <div className="marquee-text">
-            <strong>Call for Abstract Submission till 20 November 2023</strong>
+            <strong>
+              First call for abstract submission for oral and poster
+              presentations at SDCEE-2024. Submission deadline 20 November 2023
+            </strong>
           </div>
         </div>
         <div className="hero-content">

@@ -19,7 +19,7 @@
 
 .marquee-text {
   display: inline-block;
-  animation: marquee 10s linear infinite;
+  animation: marquee 25s linear infinite;
   color: rgb(87, 2, 2);
 }
 
@@ -53,6 +53,7 @@
 }
 
 .hero-right {
+  margin-top: -24px;
   width: 60%;
   height: 100%;
   background-color: teal;

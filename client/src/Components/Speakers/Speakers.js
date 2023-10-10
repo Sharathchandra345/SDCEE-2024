@@ -17,8 +17,8 @@ const speakers = [
     place: "University of Leeds, Leeds, UK",
   },
   {
-    name: "Dr. Fulvia Chiampo",
-    position: "Associate Professor",
+    name: "Prof Fulvia Chiampo",
+    position: "",
     department: "Department of Applied Science and Technology",
     image: require("./images/Fulvia Chiampo.jpg"),
     place: "Politecnico di Torino, Italy",
@@ -60,8 +60,8 @@ const speakers = [
     place: "India",
   },
   {
-    name: "Prof. Dr. Girish M. Joshi",
-    position: "Professor",
+    name: "Prof Girish M. Joshi",
+    position: "",
     department:
       "Institute of Chemical Technology (ICT) Mumbai Marathwada Campus Jalna",
     image: require("./images/Girish M Joshi.jpg"),
@@ -108,6 +108,20 @@ const speakers = [
     department: "Sardar Swaran Singh National Institute of Bio-Energy",
     image: require("./images/Sachin-kumar.jpg"),
     place: "Kapurthala, India",
+  },
+  {
+    name: "Dr. Rajesh Kumar Upadhyay",
+    position: "Department of Chemical Engineering",
+    department: "Indian Institute of Technology (BHU) Varanasi",
+    image: require("./images/Rajesh_kumar.jpg"),
+    place: "UP, India",
+  },
+  {
+    name: "Dr.Manojkumar Ramteke",
+    position: "Department of Chemical Engineering,Associate Head CEP/QIP/TEQIP",
+    department: "Indian Institute of Technology Delhi",
+    image: require("./images/Manoj_kumar.jpg"),
+    place: "Delhi, India",
   },
 ];
 

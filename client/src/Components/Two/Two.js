@@ -72,6 +72,9 @@ export default function Two() {
                 Design/Optimization
               </strong>
             </li>
+            <li>
+              <strong>Applied Radiation Technology</strong>
+            </li>
           </ul>
         </div>
       </div>
