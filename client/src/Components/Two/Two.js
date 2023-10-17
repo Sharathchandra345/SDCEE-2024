@@ -67,13 +67,13 @@ export default function Two() {
               <strong>Bioprocessing and Food Engineering</strong>
             </li>
             <li>
+              <strong>Applied Radiation Technology</strong>
+            </li>
+            <li>
               <strong>
                 AI, Machine Learning, and Data Analytics in Process
                 Design/Optimization
               </strong>
-            </li>
-            <li>
-              <strong>Applied Radiation Technology</strong>
             </li>
           </ul>
         </div>

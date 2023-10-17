@@ -71,6 +71,7 @@ export default function Registration() {
               <li>Materials in Engineering</li>
               <li>Modeling and Simulation of Processes</li>
               <li>Bioprocessing and Food Engineering</li>
+              <li>Applied Radiation Technology</li>
               <li>
                 AI, Machine Learning, and Data Analytics in Process
                 Design/Optimization

@@ -17,7 +17,7 @@ const speakers = [
     place: "University of Leeds, Leeds, UK",
   },
   {
-    name: "Prof Fulvia Chiampo",
+    name: "Prof. Fulvia Chiampo",
     position: "",
     department: "Department of Applied Science and Technology",
     image: require("./images/Fulvia Chiampo.jpg"),
@@ -60,12 +60,26 @@ const speakers = [
     place: "India",
   },
   {
-    name: "Prof Girish M. Joshi",
+    name: "Prof. Girish M. Joshi",
     position: "",
     department:
       "Institute of Chemical Technology (ICT) Mumbai Marathwada Campus Jalna",
     image: require("./images/Girish M Joshi.jpg"),
     place: "India",
+  },
+  {
+    name: "Prof. Rajesh Kumar Upadhyay",
+    position: "Department of Chemical Engineering",
+    department: "Indian Institute of Technology (BHU) Varanasi",
+    image: require("./images/Rajesh_kumar.jpg"),
+    place: "UP, India",
+  },
+  {
+    name: "Prof. Manojkumar Ramteke",
+    position: "Department of Chemical Engineering,Associate Head CEP/QIP/TEQIP",
+    department: "Indian Institute of Technology Delhi",
+    image: require("./images/Manoj_kumar.jpg"),
+    place: "Delhi, India",
   },
   {
     name: "Dr. Prasun Roy",
@@ -108,20 +122,6 @@ const speakers = [
     department: "Sardar Swaran Singh National Institute of Bio-Energy",
     image: require("./images/Sachin-kumar.jpg"),
     place: "Kapurthala, India",
-  },
-  {
-    name: "Dr. Rajesh Kumar Upadhyay",
-    position: "Department of Chemical Engineering",
-    department: "Indian Institute of Technology (BHU) Varanasi",
-    image: require("./images/Rajesh_kumar.jpg"),
-    place: "UP, India",
-  },
-  {
-    name: "Dr.Manojkumar Ramteke",
-    position: "Department of Chemical Engineering,Associate Head CEP/QIP/TEQIP",
-    department: "Indian Institute of Technology Delhi",
-    image: require("./images/Manoj_kumar.jpg"),
-    place: "Delhi, India",
   },
 ];
 

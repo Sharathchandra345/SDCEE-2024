@@ -30,6 +30,31 @@ export default function Hero() {
                   <span>Register</span>
                 </button>
               </Link>
+              <div className="journal">
+                <h5 className="blink">
+                  <img
+                    className="new-blinking"
+                    src={require("../Hero/new-blinking.gif")}
+                    alt="new"
+                  />
+                  <span>
+                    Selected papers will be published in the following reputed
+                    journals:
+                  </span>
+                </h5>
+                <ul>
+                  <li>
+                    <strong>
+                      The Canadian Journal of Chemical Engineering (IF 2.1)
+                    </strong>
+                  </li>
+                  <li>
+                    <strong>
+                      Chemical and Biochemical Engineering Quarterly (IF 1.5)
+                    </strong>
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="hero-right"></div>
