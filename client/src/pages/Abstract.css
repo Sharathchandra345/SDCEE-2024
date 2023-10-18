@@ -53,3 +53,17 @@
   color: white;
   width: 100%;
 }
+
+.abs-journal {
+  margin: 20px;
+}
+
+.journals {
+  columns: 2;
+  margin-top: 30px;
+}
+
+.journal-images {
+  max-height: 150px;
+  margin: 20px 0;
+}

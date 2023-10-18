@@ -89,7 +89,7 @@
   width: 200px;
   border-radius: 10px;
   border: 0px solid;
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   box-shadow: 0px 5px 10px 0px #00000077;
   color: white;
   font-size: 18px;
@@ -108,7 +108,7 @@
 }
 
 .hero span {
-  animation: blink 1s linear infinite;
+  animation: blink 3s linear infinite;
   color: #ffffff;
 }
 .journal span {

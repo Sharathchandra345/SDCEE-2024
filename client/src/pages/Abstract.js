@@ -4,6 +4,8 @@ import "./Abstract.css";
 import Pdf from "../Components/CMT Submission Guidelines.pdf";
 import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter, Route, Switch, Routes, Router } from "react-router-dom";
+import journal1 from "./j1.jpg";
+import journal2 from "./j2.jpg";
 
 export default function Registration() {
   return (
@@ -57,6 +59,32 @@ export default function Registration() {
               Conference on "Sustainable Development in Chemical and
               Environmental Engineering"(SDCEE-2024).
             </p>
+          </div>
+          <div className="abs-journal">
+            <h5 className="blink">
+              <span>
+                Selected papers will be published in the following SCI/SCIE
+                journals:
+              </span>
+            </h5>
+            <div className="journals">
+              <div className="j1">
+                <p>The Canadian Journal of Chemical Engineering (IF 2.1)</p>
+                <img
+                  src={journal1}
+                  className="journal-images"
+                  alt="The Canadian Journal of Chemical Engineering"
+                />
+              </div>
+              <div className="j2">
+                <p>Chemical and Biochemical Engineering Quarterly (IF 1.5)</p>
+                <img
+                  src={journal2}
+                  className="journal-images"
+                  alt="The Canadian Journal of Chemical Engineering"
+                />
+              </div>
+            </div>
           </div>
           <div className="topics abs-topics">
             <h4>Conference Themes</h4>

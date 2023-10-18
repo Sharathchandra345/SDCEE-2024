@@ -38,7 +38,7 @@ export default function Hero() {
                     alt="new"
                   />
                   <span>
-                    Selected papers will be published in the following reputed
+                    Selected papers will be published in the following SCI/SCIE
                     journals:
                   </span>
                 </h5>
