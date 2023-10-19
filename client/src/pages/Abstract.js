@@ -6,6 +6,8 @@ import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter, Route, Switch, Routes, Router } from "react-router-dom";
 import journal1 from "./j1.jpg";
 import journal2 from "./j2.jpg";
+import wos from "./wos.png";
+import scopus from "./scopus.png";
 
 export default function Registration() {
   return (
@@ -64,12 +66,18 @@ export default function Registration() {
             <h5 className="blink">
               <span>
                 Selected papers will be published in the following SCI/SCIE
-                journals:
+                Journals:
               </span>
             </h5>
             <div className="journals">
               <div className="j1">
-                <p>The Canadian Journal of Chemical Engineering (IF 2.1)</p>
+                <p>
+                  <strong>
+                    The Canadian Journal of Chemical Engineering (IF 2.1)
+                  </strong>
+                  <br />
+                  (Special issue)
+                </p>
                 <img
                   src={journal1}
                   className="journal-images"
@@ -77,13 +85,24 @@ export default function Registration() {
                 />
               </div>
               <div className="j2">
-                <p>Chemical and Biochemical Engineering Quarterly (IF 1.5)</p>
+                <p>
+                  <strong>
+                    Chemical and Biochemical Engineering Quarterly (IF 1.5)
+                  </strong>
+                </p>
                 <img
                   src={journal2}
                   className="journal-images"
                   alt="The Canadian Journal of Chemical Engineering"
                 />
               </div>
+            </div>
+          </div>
+          <div className="abs-index">
+            <h4>Indexed Journals</h4>
+            <div className="index-images">
+              <img className="index-img" src={wos} alt="web of science" />
+              <img className="index-img" src={scopus} alt="Scopus" />
             </div>
           </div>
           <div className="topics abs-topics">

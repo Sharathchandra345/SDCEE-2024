@@ -165,3 +165,19 @@ p {
 .othercom1 .name {
   text-align: left;
 }
+
+@media screen and (max-width: 600px) {
+  .committee {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
+  .patrons {
+    max-width: 100vw;
+  }
+  .patron {
+    max-width: 100vw;
+  }
+}

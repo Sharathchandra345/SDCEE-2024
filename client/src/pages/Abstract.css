@@ -57,10 +57,26 @@
 .abs-journal {
   margin: 20px;
 }
+.abs-index {
+  margin: 20px;
+}
+
+.index-img {
+  max-height: 70px;
+}
+
+.index-images {
+  display: flex;
+  /* justify-content: space-evenly;
+  align-items: center; */
+}
 
 .journals {
   columns: 2;
   margin-top: 30px;
+  /* display: flex;
+  justify-content: space-evenly;
+  text-align: center; */
 }
 
 .journal-images {

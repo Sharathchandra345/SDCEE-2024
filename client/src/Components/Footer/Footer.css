@@ -75,3 +75,9 @@ body {
   margin-top: 20px;
   list-style: none;
 }
+@media screen and (max-width: 600px) {
+  .footer {
+    overflow-x: hidden;
+    display: none;
+  }
+}
