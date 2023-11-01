@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 .abs-gray {
   /* background-color: #d2d8dd; */
@@ -36,14 +37,6 @@
   justify-content: center;
 }
 
-.pdf {
-  margin-left: 20vw;
-}
-
-.abs-btn {
-  margin-right: 20vw;
-}
-
 .abs-btn {
   margin-left: 10px;
 }
@@ -63,6 +56,10 @@
 
 .index-img {
   max-height: 70px;
+}
+
+.abs-Template {
+  width: 100%;
 }
 
 .index-images {

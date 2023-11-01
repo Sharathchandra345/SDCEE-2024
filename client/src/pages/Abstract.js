@@ -2,6 +2,7 @@ import React from "react";
 import "./registration.css";
 import "./Abstract.css";
 import Pdf from "../Components/CMT Submission Guidelines.pdf";
+import AbTemplate from "../Components/abstractTemplate.docx";
 import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter, Route, Switch, Routes, Router } from "react-router-dom";
 import journal1 from "./j1.jpg";
@@ -139,6 +140,15 @@ export default function Registration() {
             <div className="abs-center">
               <a href={Pdf} target="_blank" className="pdf register-center">
                 Submission Guidelines (CMT)
+              </a>
+            </div>
+            <div className="abs-center">
+              <a
+                href={AbTemplate}
+                target="_blank"
+                className="pdf register-center"
+              >
+                Abstract template
               </a>
             </div>
             <div className="abs-center abs-btn-cont">
