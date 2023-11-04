@@ -7,6 +7,7 @@ import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter, Route, Switch, Routes, Router } from "react-router-dom";
 import journal1 from "./j1.jpg";
 import journal2 from "./j2.jpg";
+import journal3 from "./j3.jpg";
 import wos from "./wos.png";
 import scopus from "./scopus.png";
 
@@ -74,10 +75,10 @@ export default function Registration() {
               <div className="j1">
                 <p>
                   <strong>
-                    The Canadian Journal of Chemical Engineering (IF 2.1)
+                    The Canadian Journal of Chemical Engineering
+                    <br />
+                    <p>(IF 2.1) , Special issue </p>
                   </strong>
-                  <br />
-                  (Special issue)
                 </p>
                 <img
                   src={journal1}
@@ -96,14 +97,30 @@ export default function Registration() {
                   className="journal-images"
                   alt="The Canadian Journal of Chemical Engineering"
                 />
+                <br />
+              </div>
+              <div className="j3">
+                <br />
+                <p>
+                  <strong>
+                    Chemical Engineering & Technology
+                    <br />
+                    <span>(IF 2.1)</span>
+                  </strong>
+                </p>
+                <img
+                  src={journal3}
+                  className="journal-images"
+                  alt="Chemical Engineering & Technology"
+                />
               </div>
             </div>
           </div>
           <div className="abs-index">
             <h4>Indexed Journals</h4>
             <div className="index-images">
-              <img className="index-img" src={wos} alt="web of science" />
-              <img className="index-img" src={scopus} alt="Scopus" />
+              <img className="index-img wos" src={wos} alt="web of science" />
+              <img className="index-img scopus" src={scopus} alt="Scopus" />
             </div>
           </div>
           <div className="topics abs-topics">

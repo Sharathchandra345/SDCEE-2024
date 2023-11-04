@@ -68,6 +68,11 @@ const organizing = [
     img: require("./images/JyotsanaMehta.jpg"),
     dept: "Biotechnology, TIET, Patiala",
   },
+  {
+    name: "Dr. Vivek Gupta",
+    img: require("./images/vivekGupta.jpg"),
+    dept: "Civil Engineering Department, TIET Patiala",
+  },
 ];
 
 const coreteam = [

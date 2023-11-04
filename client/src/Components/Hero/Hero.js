@@ -53,6 +53,9 @@ export default function Hero() {
                       Chemical and Biochemical Engineering Quarterly (IF 1.5)
                     </strong>
                   </li>
+                  <li>
+                    <strong>Chemical Engineering & Technology (IF 2.1)</strong>
+                  </li>
                 </ul>
               </div>
             </div>
