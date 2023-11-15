@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./registration.css";
 import "./Abstract.css";
 import Pdf from "../Components/CMT Submission Guidelines.pdf";
@@ -12,9 +12,19 @@ import wos from "./wos.png";
 import scopus from "./scopus.png";
 
 export default function Registration() {
+  const [menuVisible, setMenuVisible] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuVisible(!menuVisible);
+  };
   return (
     <div>
-      <div className="nav" id="nav">
+      <div className={`nav ${menuVisible ? "active" : ""}`} id="nav">
+        <button className="menu-icon" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </button>
         <Link smooth to="/" className="text-link">
           <div className="logo">
             <img
@@ -23,7 +33,7 @@ export default function Registration() {
             />
           </div>
         </Link>
-        <div className="nav-menu">
+        <div className={`nav-menu ${menuVisible ? "active" : ""}`}>
           <Link smooth to="/#hero" className="text-link">
             <a className="nav-link">Home</a>
           </Link>

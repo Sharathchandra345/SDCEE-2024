@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../Components/Navbar/Navbar";
 import "../Components/Footer/Footer";
 import "./registration.css"; // Import your CSS file
@@ -6,9 +6,47 @@ import { HashLink as Link } from "react-router-hash-link";
 import { BrowserRouter, Route, Switch, Routes, Router } from "react-router-dom";
 
 export default function Registration() {
+  const feeDetails = [
+    {
+      category: "Faculty/Academicians (Indian)",
+      fee: 5000,
+    },
+    {
+      category: "Research Scholars/Students (Indian)",
+      fee: 3000,
+    },
+    {
+      category: "Industrial Participants (Indian)",
+      fee: 7000,
+    },
+    {
+      category: "Foreign Delegates",
+      fee: 350,
+    },
+    {
+      category: "Listener/Accompanying Person (Indian)",
+      fee: 2000,
+    },
+  ];
+
+  const calculateGST = (fee) => {
+    const gstRate = 0.18; // 18% GST
+    return (fee * gstRate).toFixed(0);
+  };
+  const [menuVisible, setMenuVisible] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuVisible(!menuVisible);
+  };
+
   return (
     <div>
-      <div className="nav" id="nav">
+      <div className={`nav ${menuVisible ? "active" : ""}`} id="nav">
+        <button className="menu-icon" onClick={toggleMenu}>
+          <div className="bar"></div>
+          <div className="bar"></div>
+          <div className="bar"></div>
+        </button>
         <Link smooth to="/" className="text-link">
           <div className="logo">
             <img
@@ -17,7 +55,7 @@ export default function Registration() {
             />
           </div>
         </Link>
-        <div className="nav-menu">
+        <div className={`nav-menu ${menuVisible ? "active" : ""}`}>
           <Link smooth to="/#hero" className="text-link">
             <a className="nav-link">Home</a>
           </Link>
@@ -61,23 +99,42 @@ export default function Registration() {
           </div>
           <div className="fee-details">
             <h2>Fee Details</h2>
-            <ul>
-              <li>
-                <strong>Faculty/Academicians (Indian) </strong> INR 5000
-              </li>
-              <li>
-                <strong>Research Scholars/Students (Indian) </strong> INR 3000
-              </li>
-              <li>
-                <strong>Industrial Participants (Indian) </strong> INR 7000
-              </li>
-              <li>
-                <strong>Foreign Delegates </strong> USD 350
-              </li>
-              <li>
-                <strong>Listener/Accompanying Person (Indian) </strong> INR 2000
-              </li>
-            </ul>
+            <table className="table-container">
+              <thead>
+                <tr>
+                  <th>Category</th>
+                  <th>Fee</th>
+                  <th>18% GST</th>
+                  <th>Total Payable Amount</th>
+                </tr>
+              </thead>
+              <tbody>
+                {feeDetails.map((item, index) => (
+                  <tr key={index}>
+                    <td>{item.category}</td>
+                    <td>
+                      {item.category === "Foreign Delegates"
+                        ? `$${item.fee.toFixed(0)}`
+                        : `₹${item.fee.toFixed(0)}`}
+                    </td>
+                    <td>
+                      {item.category === "Foreign Delegates"
+                        ? `$${calculateGST(item.fee)}`
+                        : `₹${calculateGST(item.fee)}`}
+                    </td>
+                    <td>
+                      {item.category === "Foreign Delegates"
+                        ? `$${(
+                            item.fee + parseFloat(calculateGST(item.fee))
+                          ).toFixed(0)}`
+                        : `₹${(
+                            item.fee + parseFloat(calculateGST(item.fee))
+                          ).toFixed(0)}`}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
             <div className="register-guide">
               <ul className="guide-reg">
                 <li>
