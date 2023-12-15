@@ -12,6 +12,7 @@ import Registration from "./pages/registration";
 import Abstract from "./pages/Abstract";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Speakers from "./Components/Speakers/Speakers";
+import SponsorshipComponent from "./Components/SponsorshipComponent/SponsorshipComponent";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function Home() {
       <Hero />
       <Two />
       <Three />
+      <SponsorshipComponent />
       <Speakers />
       <Four />
       <Committee />

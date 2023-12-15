@@ -1,0 +1,48 @@
+
+.our-sponsors {
+  text-align: center;
+  margin: 0 20vw;
+  margin: 0px;
+  padding: 3vw 20vw;
+  background-color: rgb(234, 219, 219);
+}
+
+.section-heading {
+  color: #000;
+}
+
+.separator {
+  width: 200px;
+  height: 3px;
+  background-color: #f68317;
+  margin: 10px auto;
+}
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sponsor-image {
+  max-width: 200px;
+  max-height: 150px;
+  margin: 10px;
+  object-fit: cover;
+}
+
+.sponsorship-button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #7a1010;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.sponsorship-button:hover {
+  background-color: #721f1f;
+}

@@ -11,8 +11,8 @@ export default function Three() {
         <div className="timeline">
           <ul>
             <li>
-              <strong>Last Date of Abstract Submissions:</strong> December
-              15,2023
+              <strong>Last Date of Abstract Submissions:</strong> January
+              10,2024
             </li>
             <li>
               <strong>Notification of Acceptance:</strong> December 31,2023
