@@ -141,7 +141,7 @@ export default function Registration() {
             <h1>Registration Guidelines</h1>
           </div>
           <div className="fee-details">
-            <h2>Early Bird Registration</h2>
+            {/* <h2>Early Bird Registration</h2>
             <table className="table-container">
               <thead>
                 <tr>
@@ -173,9 +173,9 @@ export default function Registration() {
                   </tr>
                 ))}
               </tbody>
-            </table>
+            </table> */}
 
-            <h2>Registration (Dec. 16, 2023 – Jan. 10, 2024)</h2>
+            <h2>Registration Details</h2>
             <table className="table-container">
               <thead>
                 <tr>
@@ -212,10 +212,9 @@ export default function Registration() {
               <ul className="guide-reg">
                 <li>
                   All the participants have to submit the registration fee
-                  through Payment Gateway link available on the website, in
-                  order to attend/present paper in the conference. E-receipt can
-                  be downloaded from payment portal after successful payment
-                  process.
+                  through UPI or Netbanking, in order to attend/present paper in
+                  the conference. E-receipt can be downloaded from payment
+                  portal after successful payment process.
                 </li>
                 <li>
                   Once the payment has been done, the authors need to fill the
@@ -270,22 +269,22 @@ export default function Registration() {
             <h2>Important Dates:</h2>
             <ul>
               <li>
-                <strong>Last Date of Abstract Submissions:</strong> January
-                10,2024
+                <strong>Last Date of Abstract Submissions:</strong> January 10,
+                2024
               </li>
               <li>
-                <strong>Notification of Acceptance:</strong> December 31,2023
+                <strong>Notification of Acceptance:</strong> January 12, 2024
+              </li>
+              {/* <li>
+              <strong>Early Bird Registration Start:</strong> October
+              01,2023-December 15,2023
+            </li> */}
+              <li>
+                <strong>Full Paper (Selected) Submission:</strong> January 30,
+                2024
               </li>
               <li>
-                <strong>Early Bird Registration Start:</strong> October
-                01,2023-December 15,2023
-              </li>
-              <li>
-                <strong>Full Paper (Selected) Submission:</strong> October
-                15,2023 - January 15,2024
-              </li>
-              <li>
-                <strong>Conference Date:</strong> February 22-24,2024
+                <strong>Conference Date:</strong> February 22-24, 2024
               </li>
             </ul>
           </div>

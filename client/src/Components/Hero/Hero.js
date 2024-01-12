@@ -9,9 +9,9 @@ export default function Hero() {
         <div className="marquee-container">
           <div className="marquee-text">
             <strong>
-              First call for abstract submission for oral and poster
-              presentations at SDCEE-2024. Submission deadline extended to
-              15 December 2023
+              Last call for abstract submission for oral and poster
+              presentations at SDCEE-2024. Submission deadline extended to 10
+              January 2024
             </strong>
           </div>
         </div>
@@ -56,6 +56,11 @@ export default function Hero() {
                   </li>
                   <li>
                     <strong>Chemical Engineering & Technology (IF 2.1)</strong>
+                  </li>
+                  <li>
+                    <strong>
+                      Environmental Science and Pollutiion Research(ESPR)(IF5.8)
+                    </strong>
                   </li>
                 </ul>
               </div>

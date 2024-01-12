@@ -4,10 +4,10 @@ import "./Abstract.css";
 import Pdf from "../Components/CMT Submission Guidelines.pdf";
 import AbTemplate from "../Components/abstractTemplate.docx";
 import { HashLink as Link } from "react-router-hash-link";
-import { BrowserRouter, Route, Switch, Routes, Router } from "react-router-dom";
 import journal1 from "./j1.jpg";
 import journal2 from "./j2.jpg";
 import journal3 from "./j3.jpg";
+import journal4 from "./j4.png";
 import wos from "./wos.png";
 import scopus from "./scopus.png";
 
@@ -85,14 +85,13 @@ export default function Registration() {
               <div className="j1">
                 <p>
                   <strong>
-                    The Canadian Journal of Chemical Engineering
-                    <br />
-                    <p>(IF 2.1) , Special issue </p>
+                    The Canadian Journal of Chemical Engineering (IF 2.1) ,
+                    Special issue
                   </strong>
                 </p>
                 <img
                   src={journal1}
-                  className="journal-images"
+                  className="journal-images first-journal"
                   alt="The Canadian Journal of Chemical Engineering"
                 />
               </div>
@@ -124,8 +123,24 @@ export default function Registration() {
                   alt="Chemical Engineering & Technology"
                 />
               </div>
+              <div className="j4">
+                <br />
+                <p>
+                  <strong>
+                    Environmental Science and Pollutiion Research (ESPR)
+                    (IF 5.8)
+                  </strong>
+                </p>
+                <img
+                  src={journal4}
+                  className="journal-images"
+                  alt="Chemical Engineering & Technology"
+                />
+              </div>
             </div>
           </div>
+          <br />
+          <br />
           <div className="abs-index">
             <h4>Indexed Journals</h4>
             <div className="index-images">

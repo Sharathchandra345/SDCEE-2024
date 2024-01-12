@@ -1,8 +1,9 @@
 import React from "react";
 import "./SponsorshipComponent.css";
 import spimg from "./download.png";
+import spimg2 from "./download (1).png";
 const SponsorshipComponent = () => {
-  const sponsorImages = [spimg];
+  const sponsorImages = [spimg, spimg2];
 
   const openPDF = () => {
     window.open("path_to_your_pdf", "_blank");
@@ -24,10 +25,10 @@ const SponsorshipComponent = () => {
         ))}
         {/* Add more images as per your requirement */}
       </div>
-
+      {/* 
       <button className="sponsorship-button" onClick={openPDF}>
         Sponsorship Options
-      </button>
+      </button> */}
     </div>
   );
 };
