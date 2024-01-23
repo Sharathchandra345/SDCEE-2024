@@ -232,6 +232,9 @@ export default function Registration() {
             <a href="https://forms.gle/BwTenJaU7qAQLbAw8" target="_blank">
               <button>Link to Register</button>
             </a>
+            <a href="https://forms.gle/r784zXXhd1zkoNeE6" target="_blank">
+              <button>Hostel Accomodation</button>
+            </a>
             <br />
             <Link smooth to="/abstract" className="text-link">
               <a href="">

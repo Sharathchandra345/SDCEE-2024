@@ -31,6 +31,11 @@ export default function Hero() {
                   <span>Register</span>
                 </button>
               </Link>
+              <a href="https://forms.gle/r784zXXhd1zkoNeE6" target="_blank">
+                <button className="hero-reg mt-3 ml-3 hostel-button">
+                  <span>Hostel Accommodation</span>
+                </button>
+              </a>
               <div className="journal">
                 <h5 className="blink">
                   <img

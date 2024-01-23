@@ -4,6 +4,9 @@ import "./Two.css";
 export default function Two() {
   return (
     <div className="two" id="about">
+      {/* <p>
+        Request for Hostel Accommodation https://forms.gle/r784zXXhd1zkoNeE6{" "}
+      </p> */}
       <div className="wrapper">
         <div className="imgcont">
           <h1>The Conference</h1>
