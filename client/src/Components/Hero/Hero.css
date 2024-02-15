@@ -2,12 +2,11 @@
   height: 100vh;
   width: 100%;
   background-color: cadetblue;
-
   display: flex;
   z-index: -100;
   background: linear-gradient(90deg, #808000 -16.68%, #20f3c9 142%);
-
   display: flex;
+  padding-top: 10px;
   flex-direction: column;
 }
 
@@ -84,7 +83,8 @@
 
 .hero-head {
   font-size: 80px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  padding-top: 30px;
 }
 
 .hero-reg {
@@ -101,7 +101,7 @@
 .wave {
   position: absolute;
   width: 100%;
-  bottom: -82px;
+  bottom: -100px;
   z-index: 500;
   object-fit: cover;
 }

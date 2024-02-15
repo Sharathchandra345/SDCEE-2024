@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <>
       <div className="hero" id="hero">
-        <div className="marquee-container">
+        {/* <div className="marquee-container">
           <div className="marquee-text">
             <strong>
               Last call for abstract submission for oral and poster
@@ -14,7 +14,7 @@ export default function Hero() {
               January 2024
             </strong>
           </div>
-        </div>
+        </div> */}
         <div className="hero-content">
           <div className="hero-left">
             <div className="hero-text">
