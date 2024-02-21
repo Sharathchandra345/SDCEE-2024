@@ -236,11 +236,11 @@ export default function Registration() {
               <button>Hostel Accomodation</button>
             </a>
             <br />
-            <Link smooth to="/abstract" className="text-link">
+            {/* <Link smooth to="/abstract" className="text-link">
               <a href="">
                 <button>Submission Link</button>
               </a>
-            </Link>
+            </Link> */}
           </div>
           <div className="key-dates">
             <h2>Payment Details</h2>

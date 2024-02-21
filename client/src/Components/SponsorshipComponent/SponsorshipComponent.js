@@ -5,6 +5,7 @@ import spimg2 from "./download (1).png";
 import spimg3 from "./csir.png";
 import spimg4 from "./saipl-logo.png";
 import spimg5 from "./brns.png";
+import spimg6 from "./DRDO.png";
 
 const SponsorshipComponent = () => {
   return (
@@ -35,6 +36,11 @@ const SponsorshipComponent = () => {
         />
         <img
           src={spimg5}
+          alt="Sponsor 5"
+          className="sponsor-image5 sponsor-image"
+        />
+        <img
+          src={spimg6}
           alt="Sponsor 5"
           className="sponsor-image5 sponsor-image"
         />

@@ -6,15 +6,16 @@ export default function Hero() {
   return (
     <>
       <div className="hero" id="hero">
-        {/* <div className="marquee-container">
+        <div className="marquee-container">
           <div className="marquee-text">
             <strong>
-              Last call for abstract submission for oral and poster
+              {/* Last call for abstract submission for oral and poster
               presentations at SDCEE-2024. Submission deadline extended to 10
-              January 2024
+              January 2024 */}
+              Schedule for the conferences is now live at the 'Schedule' tab
             </strong>
           </div>
-        </div> */}
+        </div>
         <div className="hero-content">
           <div className="hero-left">
             <div className="hero-text">

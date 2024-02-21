@@ -6,7 +6,7 @@
   z-index: -100;
   background: linear-gradient(90deg, #808000 -16.68%, #20f3c9 142%);
   display: flex;
-  padding-top: 10px;
+  padding-top: 1px;
   flex-direction: column;
 }
 
@@ -15,9 +15,11 @@
 }
 
 .marquee-container {
+  position: absolute;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
+  margin-top: -1px;
 }
 
 .marquee-text {
@@ -101,7 +103,7 @@
 .wave {
   position: absolute;
   width: 100%;
-  bottom: -100px;
+  bottom: -84px;
   z-index: 500;
   object-fit: cover;
 }
@@ -113,7 +115,7 @@
 .hero span {
   animation: blink 3s linear infinite;
   color: #ffffff;
-}
+} 
 .journal span {
   animation: blink2 1s linear infinite;
   color: #af0103;

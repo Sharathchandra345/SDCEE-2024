@@ -195,13 +195,16 @@ export default function Registration() {
             </div>
             <div className="abs-center abs-btn-cont">
               <button className="abs-btn">
-                <a
-                  className="abs-none"
-                  target="_blank"
-                  href="https://cmt3.research.microsoft.com/SDCEE2024"
-                >
-                  Abstract/Paper Submission
-                </a>
+                <strike>
+                  {" "}
+                  <a
+                    className="abs-none"
+                    target="_blank"
+                    // href="https://cmt3.research.microsoft.com/SDCEE2024"
+                  >
+                    Abstract/Paper Submission
+                  </a>
+                </strike>
               </button>
             </div>
           </div>
