@@ -40,8 +40,7 @@ export default function Two() {
         <br />
         <p>
           <strong>
-            The conference will be held in a hybrid mode, incorporating both
-            virtual and in-person participation.
+            Join us live: <a href="https://www.youtube.com/live/C4utU76THcQ?si=y5Jmw_UBvwytKJ0O">https://www.youtube.com/live/C4utU76THcQ?si=y5Jmw_UBvwytKJ0O</a>
           </strong>
         </p>
         <div className="topics">
