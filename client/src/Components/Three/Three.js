@@ -2,6 +2,7 @@ import React from "react";
 import "./Three.css";
 import ip from "./inPersonSchedule.png";
 import vs from "./virtualSchedule.png";
+import ab from "./AbstractBooklet.png";
 export default function Three() {
   return (
     <div className="three" id="dates">
@@ -55,6 +56,16 @@ export default function Three() {
             >
               <img src={vs} alt="Virtual Schedule QR Code" className="qrcode" />
               <button>Virtual Schedule</button>
+            </a>
+          </div>
+          <div className="schedule-button">
+            <a
+              href="https://cdn.discordapp.com/attachments/1096822198775316490/1209905708292902962/ABSTRACT_BOOKLET_SDCEE.pdf?ex=65e89f7f&is=65d62a7f&hm=a48bd40ea8a38f9440e5098c6447636df5299dee7c55ceb4373a615402ba5311&"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src={ab} alt="Virtual Schedule QR Code" className="qrcode" />
+              <button>Abstract Booklet</button>
             </a>
           </div>
         </div>
