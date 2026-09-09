@@ -37,12 +37,7 @@ export default function Two() {
           chemical and environmental engineering, making it an important event
           for researchers and industry professionals.
         </p>
-        <br />
-        <p>
-          <strong>
-            Join us live: <a href="https://www.youtube.com/live/C4utU76THcQ?si=y5Jmw_UBvwytKJ0O">https://www.youtube.com/live/C4utU76THcQ?si=y5Jmw_UBvwytKJ0O</a>
-          </strong>
-        </p>
+        
         <div className="topics">
           <h4>Conference Themes</h4>
           <p>
